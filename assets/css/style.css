@@ -1,0 +1,213 @@
+body {
+  background: white;
+  padding: 0;
+  margin: 0;
+}
+
+:root {
+  --primary-color: #00568d;
+  --hover-color: #3ab54a;
+  --whatsapp-bg-color: #3ab54a;
+  --footerbgcolor: #a3d4ff;
+  --transparentblue: rgb(0, 86, 141, 0.5);
+}
+
+.whatsappColor {
+  background: var(--whatsapp-bg-color);
+  padding: 20px;
+}
+
+.whatsappColor a {
+  margin: 0;
+}
+
+.whatsappColorfontsize {
+  font-size: 25px;
+}
+
+.navbarfontColorSize {
+  color: var(--primary-color);
+  font-size: 20px;
+  transition: color 0.3s ease, font-size 0.3s ease;
+  font-weight: 500;
+}
+
+.navbarfontColorSize:hover {
+  color: var(--hover-color);
+  font-size: 22px;
+}
+
+/* footer section */
+
+.footer-section {
+  background: var(--footerbgcolor);
+  color: var(--primary-color);
+  height: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "DM Sans 36pt";
+}
+.footer-section .container {
+  display: flex;
+}
+
+.footer-section .container .logo-image img {
+  -o-object-fit: cover;
+  object-fit: cover;
+  -o-object-position: center;
+  object-position: center;
+  width: 250px;
+}
+.footer-section .container .icons-colors a {
+  text-decoration: none;
+  color: var(--primary-color);
+}
+.footer-section .container .icons-colors i {
+  margin-right: 30px;
+}
+.footer-section .container h1 {
+  font-size: 25px;
+  font-weight: 500;
+}
+.footer-section .container .center-align li {
+  display: flex;
+  padding: 5px 0px;
+}
+.footer-section .container .center-align li a {
+  text-decoration: none;
+  color: var(--primary-color);
+}
+.footer-section .container .center-align li i {
+  color: var(--primary-color);
+  margin-right: 10px;
+}
+
+.footerparagraphwidth {
+  width: 70%;
+  text-align: justify;
+  text-align-last: left;
+}
+
+/* track your shippment */
+
+.trak-your-shipment {
+  height: 500px;
+}
+
+.track-your-shippment-baground {
+  background: linear-gradient(to top, white 30%, rgba(255, 126, 95, 0) 30%),
+    url("../images/IMG\ 1660\ x\ 447.jpg") no-repeat center top;
+  background-size: 100%; /* First layer covers full, second layer covers bottom half */
+  background-repeat: no-repeat;
+  width: 100%;
+}
+
+.rowheight {
+  height: 500px;
+}
+
+.track-your-shippment-orders {
+  width: 80%;
+  padding: 60px 0px;
+  background: var(--footerbgcolor);
+}
+
+.forminputbuttonheight {
+  height: 50px;
+  border-radius: 20px;
+  width: 100%;
+}
+
+.formbuttoncolor {
+  background: var(--primary-color);
+  border: none;
+  color: white;
+}
+
+.orderfontaws {
+  font-size: 25px;
+  color: var(--primary-color);
+}
+
+.track-your-shippment-pargraph {
+  width: 70%;
+  text-align: justify;
+  text-align-last: left;
+}
+
+/* why choose FASTRIDE */
+.why-choose ul {
+  list-style-type: square;
+  text-align: justify;
+  text-align-last: left;
+}
+
+.why-choose li::marker {
+  color: var(--hover-color);
+}
+
+/* <!-- projects We’ve Complete --> */
+.projects-paragraphalignment {
+  text-align: justify;
+  text-align-last: left;
+}
+
+.projects-icons-size {
+  font-size: 40px;
+  color: var(--hover-color);
+}
+
+/* gatway */
+
+.gatway {
+  position: absolute;
+  top: 0;
+  border-left: 0px solid transparent;
+  border-right: 200px solid transparent;
+  border-top: 200px solid var(--transparentblue); /* Flip the triangle upwards */
+  border-bottom: 0px solid orange;
+  width: 50%;
+}
+
+@media (max-width: 925px) {
+  /* footer section */
+  .footer-section {
+    background: var(--footerbgcolor);
+    color: var(--primary-color);
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "DM Sans 36pt";
+    padding: 20px 0px;
+  }
+
+  .footer-section .container .center-align ul {
+    padding: 0px;
+  }
+
+  .footerparagraphwidth {
+    width: 80%;
+    text-align: justify;
+    text-align-last: left;
+  }
+
+  /* track your shipment */
+
+  .trak-your-shipment {
+    height: 500px;
+  }
+
+  .track-your-shippment-baground {
+    background: linear-gradient(to top, white 30%, rgba(255, 126, 95, 0) 30%),
+      url("../images/IMG\ 1660\ x\ 447.jpg") no-repeat center top; /* First layer covers full, second layer covers bottom half */
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+  }
+
+  .rowheight {
+    height: 500px;
+  }
+}
