@@ -1,7 +1,13 @@
+@font-face {
+  font-family: "CustomFont"; /* Name of the font you want to use */
+  src: url("../Fonts/Poppins-Regular.ttf") format("truetype"); /* Path to the font file */
+}
+
 body {
   background: white;
   padding: 0;
   margin: 0;
+  font-family: "CustomFont";
 }
 
 :root {
@@ -10,6 +16,10 @@ body {
   --whatsapp-bg-color: #3ab54a;
   --footerbgcolor: #a3d4ff;
   --transparentblue: rgb(0, 86, 141, 0.5);
+  --mainheadingSize: 70px;
+  --paragraphsize: 17px;
+  --subparaHeading: 50px;
+  --subparagraph: 20px;
 }
 
 .whatsappColor {
@@ -46,7 +56,6 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-family: "DM Sans 36pt";
 }
 .footer-section .container {
   display: flex;
@@ -137,10 +146,24 @@ body {
 }
 
 /* why choose FASTRIDE */
+
+.why-choose-heading h1 {
+  font-size: var(--subparaHeading);
+  color: var(--primary-color);
+}
 .why-choose ul {
   list-style-type: square;
   text-align: justify;
   text-align-last: left;
+  font-size: var(--subparagraph);
+}
+
+.why-choose li {
+  padding-top: 12px;
+}
+
+.why-choose label {
+  font-weight: 700;
 }
 
 .why-choose li::marker {
@@ -151,11 +174,43 @@ body {
 .projects-paragraphalignment {
   text-align: justify;
   text-align-last: left;
+  font-size: var(--subparagraph);
 }
 
+.project-heading h1 {
+  font-size: var(--subparaHeading);
+  color: var(--primary-color);
+}
 .projects-icons-size {
   font-size: 40px;
   color: var(--hover-color);
+  font-weight: 700;
+}
+
+.icons-heading h1 {
+  font-weight: 600;
+}
+
+/* Our-Key-Destinations-bg-img */
+/* 
+.Our-Key-Destinations-bg-img {
+  background: linear-gradient(to top, white 60%, rgba(255, 126, 95, 0) 60%),
+    url("../images/IMG\ 1920\ x\ 1280.jpg") no-repeat center top;
+  background-repeat: no-repeat;
+  width: 100%;
+} */
+
+.Our-Key-Destinations-heading h1 {
+  font-size: var(--subparaHeading);
+  color: var(--hover-color);
+}
+
+.Our-Key-Destinations-paragraph {
+  font-size: var(--subparagraph);
+  color: white;
+  text-align: justify;
+  text-align-last: center;
+  width: 80%;
 }
 
 /* gatway */
@@ -164,10 +219,29 @@ body {
   position: absolute;
   top: 0;
   border-left: 0px solid transparent;
-  border-right: 200px solid transparent;
-  border-top: 200px solid var(--transparentblue); /* Flip the triangle upwards */
+  border-right: 210px solid transparent;
+  border-top: 700px solid var(--transparentblue); /* Flip the triangle upwards */
   border-bottom: 0px solid orange;
-  width: 50%;
+  width: 55%;
+}
+
+.gatwayHeading h1 {
+  font-size: var(--mainheadingSize);
+  color: var(--hover-color);
+}
+
+.gatway-pargraph {
+  width: 30%;
+  color: white;
+  font-size: var(--paragraphsize);
+  text-align: justify;
+  text-align-last: left;
+}
+
+.gatway-postion {
+  position: absolute;
+  top: 30%;
+  left: 5%;
 }
 
 @media (max-width: 925px) {
