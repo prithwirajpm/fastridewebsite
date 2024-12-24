@@ -104,6 +104,16 @@ body {
   height: 500px;
 }
 
+.trak-your-shipment h1 {
+  color: var(--hover-color);
+  font-size: var(--subparaHeading);
+}
+
+.trak-your-shipment p {
+  color: white;
+  font-size: var(--subparagraph);
+}
+
 .track-your-shippment-baground {
   background: linear-gradient(to top, white 30%, rgba(255, 126, 95, 0) 30%),
     url("../images/IMG\ 1660\ x\ 447.jpg") no-repeat center top;
@@ -200,6 +210,10 @@ body {
   width: 100%;
 } */
 
+.Our-Key-Destinations {
+  background-color: var(--primary-color);
+}
+
 .Our-Key-Destinations-heading h1 {
   font-size: var(--subparaHeading);
   color: var(--hover-color);
@@ -211,6 +225,107 @@ body {
   text-align: justify;
   text-align-last: center;
   width: 80%;
+}
+
+.Our-values ul {
+  list-style-type: square;
+  text-align: justify;
+  text-align-last: left;
+  font-size: var(--subparagraph);
+}
+
+.Our-values li {
+  padding-top: 12px;
+}
+
+.Our-values label {
+  font-weight: 700;
+}
+
+.Our-values li::marker {
+  color: var(--hover-color);
+}
+.Our-values-border {
+  border: 10px solid var(--hover-color);
+  padding: 0;
+  margin: 0;
+}
+
+.Our-values-postion {
+  position: absolute;
+  top: 600px;
+}
+
+/* Fast-Ride-Shipping-l-l-c */
+
+.Fast-Ride-Shipping-l-l-c {
+  padding: 350px 0px 100px 0px;
+}
+
+.Fast-Ride-Shipping-l-l-c-icons {
+  color: rgb(250, 226, 70);
+}
+
+.Fast-Ride-Shipping-l-l-c h1 {
+  font-size: var(--subparaHeading);
+  color: var(--hover-color);
+}
+
+.google-feed-back {
+  position: relative;
+}
+
+.google-icon {
+  position: absolute;
+  right: 55%; /* Adjust as needed */
+  top: 55%;
+  transform: translateY(-50%);
+  pointer-events: none; /* Ensures the icon doesn't block input clicks */
+}
+
+.form-controlsss {
+  margin-top: 10px;
+  border-radius: 25px;
+  height: 50px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.8); /* Adjust to create space for the icon */
+}
+
+.star {
+  font-size: var(--subparagraph);
+  color: white;
+}
+
+.address-phone {
+  font-size: var(--subparagraph);
+  color: white;
+}
+
+.address-phone label {
+  font-weight: 400;
+}
+
+.map iframe {
+  width: 100%;
+  border: 0;
+  border-radius: 30px;
+  height: 350px;
+}
+
+.Fast-Ride-Shipping-img-paragraph p {
+  color: white;
+  font-size: var(--subparagraph);
+  text-align: justify;
+  text-align-last: left;
+}
+
+.Fast-Ride-Shipping-img-paragraph a {
+  text-decoration: none;
+  color: var(--hover-color);
+  font-size: var(--subparagraph);
+}
+
+.Fast-Ride-Shipping {
+  padding: 0px 0px 100px 0px;
 }
 
 /* gatway */
@@ -253,7 +368,6 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family: "DM Sans 36pt";
     padding: 20px 0px;
   }
 
