@@ -340,6 +340,13 @@ body {
   padding: 0px 0px 100px 0px;
 }
 
+.videosdiv {
+  width: 100%;
+  height: 600px;
+  object-fit: cover;
+  object-position: fill;
+}
+
 /* gatway */
 
 .gatway {
@@ -351,6 +358,10 @@ body {
   border-bottom: 0px solid orange;
   width: 55%;
 }
+
+/* .gatway:hover {
+  border-top: 0px solid white;
+} */
 
 .gatwayHeading h1 {
   font-size: var(--mainheadingSize);
@@ -563,6 +574,13 @@ body {
     width: 55%;
   }
 
+  .videosdiv {
+    width: 100%;
+    height: 550px;
+    object-fit: cover;
+    object-position: fill;
+  }
+
   :root {
     --primary-color: #00568d;
     --hover-color: #3ab54a;
@@ -688,6 +706,13 @@ body {
     --subparaHeading: 35px;
     --subparagraph: 16px;
   }
+
+  .videosdiv {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    object-position: fill;
+  }
 }
 
 @media (max-width: 1120px) {
@@ -735,6 +760,13 @@ body {
     border-top: 520px solid var(--transparentblue); /* Flip the triangle upwards */
     border-bottom: 0px solid orange;
     width: 55%;
+  }
+
+  .videosdiv {
+    width: 100%;
+    height: 450px;
+    object-fit: cover;
+    object-position: fill;
   }
 }
 
@@ -916,6 +948,13 @@ body {
     border-bottom: 0px solid orange;
     width: 60%;
   }
+
+  .videosdiv {
+    width: 100%;
+    height: 430px;
+    object-fit: cover;
+    object-position: fill;
+  }
 }
 
 @media (max-width: 790px) {
@@ -1017,6 +1056,13 @@ body {
   .Fast-Ride-Shipping-l-l-c {
     padding: 775px 0px 100px 0px;
   }
+
+  .videosdiv {
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+    object-position: fill;
+  }
 }
 
 @media (max-width: 490px) {
@@ -1056,6 +1102,13 @@ body {
     top: 36px;
     transform: translateY(-50%);
     pointer-events: none; /* Ensures the icon doesn't block input clicks */
+  }
+
+  .videosdiv {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    object-position: fill;
   }
 }
 
@@ -1251,6 +1304,13 @@ body {
     transform: translateY(-50%);
     pointer-events: none; /* Ensures the icon doesn't block input clicks */
   }
+
+  .videosdiv {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    object-position: fill;
+  }
 }
 
 @media (max-width: 374px) {
@@ -1294,6 +1354,13 @@ body {
 
   .Fast-Ride-Shipping-l-l-c {
     padding: 800px 0px 100px 0px;
+  }
+
+  .videosdiv {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    object-position: fill;
   }
 }
 
