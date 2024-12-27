@@ -24,19 +24,37 @@ body {
 
 .whatsappColor {
   background: var(--whatsapp-bg-color);
-  padding: 20px;
+  border-left: 61px solid #004165;
+  border-right: 50px solid var(--hover-color);
+  border-top: 0px solid var(--hover-color);
+  border-bottom: 111px solid var(--hover-color);
 }
 
 .whatsappColor a {
   margin: 0;
 }
 
+.nav-mobile {
+  display: none;
+}
+
+.nav-lapscreen {
+  display: block;
+}
+
 .whatsappColorfontsize {
   font-size: 25px;
 }
 
+.whatsappiconposition {
+  position: absolute;
+  right: 30px;
+  top: 78px;
+  color: white;
+}
+
 .navbarfontColorSize {
-  color: var(--primary-color);
+  color: white;
   font-size: 20px;
   transition: color 0.3s ease, font-size 0.3s ease;
   font-weight: 500;
@@ -49,6 +67,33 @@ body {
 .navbarfontColorSize:hover {
   color: var(--hover-color);
   font-size: 22px;
+}
+
+.headr-location a {
+  text-decoration: none;
+  color: var(--primary-color);
+}
+
+.navdivition {
+  display: block;
+  position: absolute;
+  top: 0px;
+  border-left: 0px solid transparent;
+  border-right: 100px solid transparent;
+  border-top: 150px solid white; /* Flip the triangle upwards */
+  border-bottom: 0px solid orange;
+  width: 30%;
+}
+
+.navimageposition {
+  position: absolute;
+  top: 20px;
+  left: 75px;
+}
+
+.navmenu-location {
+  background-color: #a3d4ff;
+  height: 40px;
 }
 
 /* footer section */
@@ -353,7 +398,7 @@ body {
   position: absolute;
   top: 0;
   border-left: 0px solid transparent;
-  border-right: 210px solid transparent;
+  border-right: 220px solid transparent;
   border-top: 700px solid var(--transparentblue); /* Flip the triangle upwards */
   border-bottom: 0px solid orange;
   width: 55%;
@@ -561,6 +606,17 @@ body {
     border-bottom: 0px solid orange;
     width: 55%;
   }
+
+  .navdivition {
+    display: block;
+    position: absolute;
+    top: 0px;
+    border-left: 0px solid transparent;
+    border-right: 80px solid transparent;
+    border-top: 150px solid white; /* Flip the triangle upwards */
+    border-bottom: 0px solid orange;
+    width: 30%;
+  }
 }
 
 @media (max-width: 1300px) {
@@ -591,6 +647,23 @@ body {
     --paragraphsize: 17px;
     --subparaHeading: 40px;
     --subparagraph: 18px;
+  }
+
+  .navdivition {
+    display: block;
+    position: absolute;
+    top: 0px;
+    border-left: 0px solid transparent;
+    border-right: 80px solid transparent;
+    border-top: 150px solid white; /* Flip the triangle upwards */
+    border-bottom: 0px solid orange;
+    width: 30%;
+  }
+
+  .navimageposition {
+    position: absolute;
+    top: 20px;
+    left: 40px;
   }
 }
 
@@ -681,6 +754,21 @@ body {
     border-top: 560px solid var(--transparentblue); /* Flip the triangle upwards */
     border-bottom: 0px solid orange;
     width: 55%;
+  }
+
+  .navdivition {
+    display: block;
+    position: absolute;
+    top: 0px;
+    border-left: 0px solid transparent;
+    border-right: 70px solid transparent;
+    border-top: 150px solid white; /* Flip the triangle upwards */
+    border-bottom: 0px solid orange;
+    width: 30%;
+  }
+
+  .navbarimg {
+    width: 216px;
   }
 }
 
@@ -837,6 +925,32 @@ body {
   .Our-values-postion {
     position: absolute;
     top: 400px;
+  }
+
+  .nav-mobile {
+    display: block;
+  }
+
+  .navdivition {
+    display: none;
+    position: absolute;
+    top: 0px;
+    border-left: 0px solid transparent;
+    border-right: 100px solid transparent;
+    border-top: 150px solid white; /* Flip the triangle upwards */
+    border-bottom: 0px solid orange;
+    width: 30%;
+  }
+
+  .nav-lapscreen {
+    display: none;
+  }
+
+  .navbarfontColorSize {
+    color: black;
+    font-size: 20px;
+    transition: color 0.3s ease, font-size 0.3s ease;
+    font-weight: 500;
   }
 }
 
