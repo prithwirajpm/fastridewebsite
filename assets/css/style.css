@@ -428,6 +428,58 @@ body {
   left: 5%;
 }
 
+/* ************************************ sevices-page ************************************************************ */
+/* comprehensive-Freight-Solutions */
+.comprehensive-Freight-Solutions {
+  position: absolute;
+  top: -85px;
+  border-left: 0px solid transparent;
+  border-right: 210px solid transparent;
+  border-top: 0px solid transparent; /* Flip the triangle upwards */
+  border-bottom: 400px solid #004165;
+  width: 90%;
+}
+
+.comprehensive-Freight-Solutions-Heading h1 {
+  font-size: var(--mainheadingSize);
+  color: var(--whatsapp-bg-color);
+  margin: 0px;
+  font-weight: 600;
+}
+
+.comprehensive-Freight-Solutions-Paragraph p {
+  font-size: var(--subparagraph);
+  color: white;
+  width: 60%;
+  text-align: justify;
+  text-align-last: left;
+}
+
+.comprehensive-Freight-Solutions-content {
+  position: absolute;
+  top: -20px;
+  left: 100px;
+}
+
+.comprehensive-section {
+  position: relative;
+}
+
+/* aircraft */
+.testing-left {
+  border-bottom: 56px solid red;
+  border-top: 0px solid red;
+  border-left: 0px solid red;
+  border-right: 279px solid transparent;
+}
+
+/* .testing-right {
+  border-bottom: 279px solid red;
+  border-top: 0px solid red;
+  border-left: 56px solid red;
+  border-right: 0px solid transparent;
+} */
+
 @media (max-width: 925px) {
   /* footer section */
   .footer-section {
