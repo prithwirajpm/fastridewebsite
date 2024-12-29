@@ -20,6 +20,7 @@ body {
   --paragraphsize: 17px;
   --subparaHeading: 45px;
   --subparagraph: 20px;
+  --lightfootercolor: #e3eff9;
 }
 
 .whatsappColor {
@@ -466,17 +467,162 @@ body {
 }
 
 /* aircraft */
-.testing-left {
-  border-bottom: 56px solid red;
-  border-top: 0px solid red;
-  border-left: 0px solid red;
-  border-right: 279px solid transparent;
+
+.air-Freight-section {
+  padding-top: 350px;
+  padding-bottom: 100px;
+}
+
+.air-Freight-img-position {
+  position: relative;
+  top: 20px;
+}
+.air-Freight-bg {
+  background: linear-gradient(
+    to bottom,
+    white 20%,
+    var(--lightfootercolor) 20%
+  );
+  color: black;
+  height: -webkit-fill-available;
+}
+.air-Freight-content h1 {
+  font-size: var(--subparaHeading);
+  font-weight: 600;
+}
+
+.air-Freight-content p {
+  font-size: var(--subparagraph);
+  text-align: justify;
+  text-align-last: left;
+}
+
+.air-Freight-content {
+  width: 80%;
+}
+
+.air-Freight-content p {
+  font-size: var(--subparagraph);
+}
+
+#chevron {
+  position: relative;
+  text-align: center;
+  padding: 12px;
+  margin-bottom: 6px;
+  height: 60px;
+  width: 100%;
+}
+#chevron:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 51%;
+  background: var(--lightfootercolor);
+  transform: skew(0deg, 6deg);
+}
+#chevron:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+  width: 50%;
+  background: var(--lightfootercolor);
+  transform: skew(0deg, -6deg);
+}
+
+/* special-Expertise-content */
+
+.special-Expertise-content {
+  background: #004165;
+  padding: 70px 0px;
+}
+
+.special-Expertise-heading h1 {
+  font-size: var(--subparaHeading);
+  font-weight: 600;
+  color: var(--whatsapp-bg-color);
+}
+
+.special-Expertise-paragraph p {
+  font-size: var(--subparagraph);
+  color: white;
+  text-align: justify;
+  text-align-last: center;
+}
+
+.special-Expertise-icon {
+  position: absolute;
+  top: -100px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+/* project-cargo-movements */
+
+.project-cargo-movements-heading h1 {
+  font-size: var(--subparaHeading);
+  font-weight: 600;
+}
+
+.project-cargo-movements-paragraph p {
+  font-size: var(--subparagraph);
+  text-align: justify;
+  text-align-last: left;
+  width: 90%;
+}
+
+.project-cargo-movements-banner-padding {
+  padding: 0;
+}
+
+.project-cargo-movements-content-div {
+  width: 90%;
+}
+
+/* tailored-Logistics-solutions */
+
+.tailored-Logistics-solutions {
+  background-color: #004165;
+}
+
+.tailored-Logistics-solutions-content-heading h1 {
+  font-size: var(--subparaHeading);
+  font-weight: 600;
+  color: var(--whatsapp-bg-color);
+}
+
+.tailored-Logistics-solutions-padding {
+  padding: 0;
+}
+
+.tailored-Logistics-solutions ul {
+  list-style-type: square;
+  text-align: justify;
+  text-align-last: left;
+  font-size: var(--subparagraph);
+  color: white;
+}
+
+.tailored-Logistics-solutions li {
+  padding-top: 12px;
+}
+
+.tailored-Logistics-solutions label {
+  font-weight: 700;
+}
+
+.tailored-Logistics-solutions li::marker {
+  color: var(--hover-color);
 }
 
 /* .testing-right {
-  border-bottom: 279px solid red;
+  border-bottom: 0px solid red;
   border-top: 0px solid red;
-  border-left: 56px solid red;
+  border-left: 0px solid red;
   border-right: 0px solid transparent;
 } */
 
@@ -795,6 +941,13 @@ body {
     position: absolute;
     top: 500px;
   }
+
+  .special-Expertise-icon {
+    position: absolute;
+    top: -75px;
+    display: flex;
+    justify-content: flex-end;
+  }
 }
 
 @media (max-width: 1180px) {
@@ -888,6 +1041,12 @@ body {
     --paragraphsize: 17px;
     --subparaHeading: 35px;
     --subparagraph: 14px;
+  }
+
+  .comprehensive-Freight-Solutions-content {
+    position: absolute;
+    top: 10px;
+    left: 90px;
   }
 }
 
@@ -1030,6 +1189,13 @@ body {
     justify-content: space-around;
     align-items: center;
   }
+
+  .special-Expertise-icon {
+    position: absolute;
+    top: -56px;
+    display: flex;
+    justify-content: flex-end;
+  }
 }
 
 @media (max-width: 980px) {
@@ -1150,6 +1316,12 @@ body {
     top: 30%;
     left: 0;
   }
+  .special-Expertise-icon {
+    position: absolute;
+    top: -46px;
+    display: flex;
+    justify-content: flex-end;
+  }
 }
 
 @media (max-width: 750px) {
@@ -1169,6 +1341,12 @@ body {
     top: 36px;
     transform: translateY(-50%);
     pointer-events: none; /* Ensures the icon doesn't block input clicks */
+  }
+  .project-cargo-movements-paragraph p {
+    font-size: var(--subparagraph);
+    text-align: justify;
+    text-align-last: left;
+    width: 100%;
   }
 }
 
@@ -1228,6 +1406,29 @@ body {
     height: 350px;
     object-fit: cover;
     object-position: fill;
+  }
+
+  .comprehensive-Freight-Solutions {
+    position: absolute;
+    top: -47px;
+    border-left: 0px solid transparent;
+    border-right: 155px solid transparent;
+    border-top: 0px solid transparent; /* Flip the triangle upwards */
+    border-bottom: 400px solid #004165;
+    width: 90%;
+  }
+
+  .comprehensive-Freight-Solutions-content {
+    position: absolute;
+    top: 10px;
+    left: 40px;
+  }
+
+  .special-Expertise-icon {
+    position: absolute;
+    top: -36px;
+    display: flex;
+    justify-content: flex-end;
   }
 }
 
@@ -1380,6 +1581,22 @@ body {
     --subparaHeading: 27px;
     --subparagraph: 13px;
   }
+
+  .comprehensive-Freight-Solutions {
+    position: absolute;
+    top: -40px;
+    border-left: 0px solid transparent;
+    border-right: 155px solid transparent;
+    border-top: 0px solid transparent; /* Flip the triangle upwards */
+    border-bottom: 400px solid #004165;
+    width: 90%;
+  }
+
+  .comprehensive-Freight-Solutions-content {
+    position: absolute;
+    top: 55px;
+    left: 30px;
+  }
 }
 
 @media (max-width: 410px) {
@@ -1450,6 +1667,13 @@ body {
     top: 34%;
     left: 1%;
   }
+
+  .special-Expertise-icon {
+    position: absolute;
+    top: -28px;
+    display: flex;
+    justify-content: flex-end;
+  }
 }
 
 @media (max-width: 384px) {
@@ -1476,6 +1700,22 @@ body {
     height: 250px;
     object-fit: cover;
     object-position: fill;
+  }
+
+  .comprehensive-Freight-Solutions {
+    position: absolute;
+    top: -30px;
+    border-left: 0px solid transparent;
+    border-right: 130px solid transparent;
+    border-top: 0px solid transparent; /* Flip the triangle upwards */
+    border-bottom: 400px solid #004165;
+    width: 90%;
+  }
+
+  .comprehensive-Freight-Solutions-content {
+    position: absolute;
+    top: 55px;
+    left: 30px;
   }
 }
 
@@ -1527,6 +1767,21 @@ body {
     height: 220px;
     object-fit: cover;
     object-position: fill;
+  }
+  .comprehensive-Freight-Solutions {
+    position: absolute;
+    top: -30px;
+    border-left: 0px solid transparent;
+    border-right: 100px solid transparent;
+    border-top: 0px solid transparent; /* Flip the triangle upwards */
+    border-bottom: 400px solid #004165;
+    width: 90%;
+  }
+
+  .comprehensive-Freight-Solutions-content {
+    position: absolute;
+    top: 55px;
+    left: 30px;
   }
 }
 
