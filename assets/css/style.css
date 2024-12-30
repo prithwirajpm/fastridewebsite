@@ -238,6 +238,12 @@ body {
   font-size: var(--subparagraph);
 }
 
+.projects-icon-alignment {
+  display: flex;
+  justify-content: stretch;
+  align-items: center;
+}
+
 .project-heading h1 {
   font-size: var(--subparaHeading);
   color: var(--primary-color);
@@ -304,7 +310,7 @@ body {
 
 .Our-values-postion {
   position: absolute;
-  top: 600px;
+  top: 700px;
 }
 
 /* Fast-Ride-Shipping-l-l-c */
@@ -388,7 +394,7 @@ body {
 
 .videosdiv {
   width: 100%;
-  height: 600px;
+  height: 500px;
   object-fit: cover;
   object-position: fill;
 }
@@ -746,7 +752,7 @@ body {
 
   .Our-values-postion {
     position: absolute;
-    top: 550px;
+    top: 658px;
   }
 
   :root {
@@ -830,9 +836,14 @@ body {
 
   .videosdiv {
     width: 100%;
-    height: 550px;
+    height: 500px;
     object-fit: cover;
     object-position: fill;
+  }
+
+  .Our-values-postion {
+    position: absolute;
+    top: 600px;
   }
 
   :root {
@@ -1135,7 +1146,7 @@ body {
 
   .Our-values-postion {
     position: absolute;
-    top: 400px;
+    top: 346px;
   }
 
   .nav-mobile {
@@ -1348,6 +1359,10 @@ body {
     text-align-last: left;
     width: 100%;
   }
+
+  .projects-icon-alignment {
+    display: block;
+  }
 }
 
 @media (max-width: 500px) {
@@ -1429,6 +1444,10 @@ body {
     top: -36px;
     display: flex;
     justify-content: flex-end;
+  }
+
+  .projects-icon-alignment {
+    display: block;
   }
 }
 
