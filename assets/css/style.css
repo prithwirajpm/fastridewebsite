@@ -10,6 +10,43 @@ body {
   font-family: "CustomFont";
 }
 
+.slider {
+  display: flex;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+.slides {
+  display: flex;
+  width: 300%; /* 3 banners = 300% */
+  animation: slideAnimation 12s infinite;
+}
+
+.banner-section {
+  flex: 0 0 100%; /* Each banner takes up full width */
+  position: relative;
+}
+
+/* Keyframes for Horizontal Slide */
+@keyframes slideAnimation {
+  0% {
+    transform: translateX(0%); /* Show first banner */
+  }
+  33.33% {
+    transform: translateX(0%);
+  }
+  50% {
+    transform: translateX(-100%); /* Show second banner */
+  }
+  83.33% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(-200%); /* Show third banner */
+  }
+}
+
 :root {
   --primary-color: #00568d;
   --hover-color: #3ab54a;
