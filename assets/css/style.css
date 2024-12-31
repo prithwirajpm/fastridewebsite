@@ -476,11 +476,11 @@ body {
 /* comprehensive-Freight-Solutions */
 .comprehensive-Freight-Solutions {
   position: absolute;
-  top: -85px;
+  top: -360px;
   border-left: 0px solid transparent;
   border-right: 210px solid transparent;
   border-top: 0px solid transparent; /* Flip the triangle upwards */
-  border-bottom: 400px solid #004165;
+  border-bottom: 400px solid var(--transparentblue);
   width: 90%;
 }
 
@@ -501,7 +501,7 @@ body {
 
 .comprehensive-Freight-Solutions-content {
   position: absolute;
-  top: -20px;
+  top: -318px;
   left: 100px;
 }
 
@@ -512,7 +512,7 @@ body {
 /* aircraft */
 
 .air-Freight-section {
-  padding-top: 350px;
+  padding-top: 90px;
   padding-bottom: 100px;
 }
 
@@ -660,6 +660,70 @@ body {
 
 .tailored-Logistics-solutions li::marker {
   color: var(--hover-color);
+}
+
+/* ************************************ dgcargo ************************************************************ */
+.safe-Compliant {
+  padding: 100px 0px;
+}
+.safe-Compliant-heading h1 {
+  font-size: var(--subparaHeading);
+  font-weight: 600;
+  color: var(--primary-color);
+}
+
+.safe-Compliant-heading-paragraph p {
+  font-size: var(--subparagraph);
+  text-align: justify;
+  text-align-last: left;
+}
+
+.Our-Expertise-heading h1 {
+  font-size: var(--subparaHeading);
+  color: var(--primary-color);
+  font-weight: 600;
+}
+.Our-Expertise ul {
+  list-style-type: square;
+  text-align: justify;
+  text-align-last: left;
+  font-size: var(--subparagraph);
+}
+
+.Our-Expertise li {
+  padding-top: 12px;
+}
+
+.Our-Expertise label {
+  font-weight: 700;
+}
+
+.Our-Expertise li::marker {
+  color: var(--hover-color);
+}
+
+.dgcargo-goods-bg {
+  background-color: var(--transparentblue);
+  width: fit-content;
+}
+
+.dgcargo-goods-bg-img {
+  position: relative;
+  right: 48px;
+}
+
+.dgcargo-goods-cargo-bg-image-position {
+  position: absolute;
+  bottom: -18px;
+  padding: 0;
+}
+
+.dg-heading h1 {
+  color: white;
+  font-size: 75px;
+  font-weight: 800;
+  padding: 50px;
+  margin: 0;
 }
 
 /* .testing-right {
@@ -1093,8 +1157,8 @@ body {
 
   .comprehensive-Freight-Solutions-content {
     position: absolute;
-    top: 10px;
-    left: 90px;
+    top: -286px;
+    left: 100px;
   }
 }
 
@@ -1462,18 +1526,18 @@ body {
 
   .comprehensive-Freight-Solutions {
     position: absolute;
-    top: -47px;
+    top: -201px;
     border-left: 0px solid transparent;
-    border-right: 155px solid transparent;
+    border-right: 134px solid transparent;
     border-top: 0px solid transparent; /* Flip the triangle upwards */
-    border-bottom: 400px solid #004165;
+    border-bottom: 300px solid var(--transparentblue);
     width: 90%;
   }
 
   .comprehensive-Freight-Solutions-content {
     position: absolute;
-    top: 10px;
-    left: 40px;
+    top: -201px;
+    left: 30px;
   }
 
   .special-Expertise-icon {
@@ -1640,17 +1704,17 @@ body {
 
   .comprehensive-Freight-Solutions {
     position: absolute;
-    top: -40px;
+    top: -201px;
     border-left: 0px solid transparent;
-    border-right: 155px solid transparent;
+    border-right: 134px solid transparent;
     border-top: 0px solid transparent; /* Flip the triangle upwards */
-    border-bottom: 400px solid #004165;
+    border-bottom: 300px solid var(--transparentblue);
     width: 90%;
   }
 
   .comprehensive-Freight-Solutions-content {
     position: absolute;
-    top: 55px;
+    top: -201px;
     left: 30px;
   }
 }
@@ -1760,17 +1824,17 @@ body {
 
   .comprehensive-Freight-Solutions {
     position: absolute;
-    top: -30px;
+    top: -201px;
     border-left: 0px solid transparent;
-    border-right: 130px solid transparent;
+    border-right: 134px solid transparent;
     border-top: 0px solid transparent; /* Flip the triangle upwards */
-    border-bottom: 400px solid #004165;
+    border-bottom: 300px solid var(--transparentblue);
     width: 90%;
   }
 
   .comprehensive-Freight-Solutions-content {
     position: absolute;
-    top: 55px;
+    top: -201px;
     left: 30px;
   }
 }
@@ -1826,17 +1890,17 @@ body {
   }
   .comprehensive-Freight-Solutions {
     position: absolute;
-    top: -30px;
+    top: -201px;
     border-left: 0px solid transparent;
-    border-right: 100px solid transparent;
+    border-right: 134px solid transparent;
     border-top: 0px solid transparent; /* Flip the triangle upwards */
-    border-bottom: 400px solid #004165;
+    border-bottom: 300px solid var(--transparentblue);
     width: 90%;
   }
 
   .comprehensive-Freight-Solutions-content {
     position: absolute;
-    top: 55px;
+    top: -201px;
     left: 30px;
   }
 }
