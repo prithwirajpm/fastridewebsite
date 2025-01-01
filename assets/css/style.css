@@ -58,6 +58,7 @@ body {
   --subparaHeading: 45px;
   --subparagraph: 20px;
   --lightfootercolor: #e3eff9;
+  --ligt-green: #4cf161;
 }
 
 .whatsappColor {
@@ -675,13 +676,17 @@ body {
 .safe-Compliant-heading-paragraph p {
   font-size: var(--subparagraph);
   text-align: justify;
-  text-align-last: left;
+  text-align-last: center;
 }
 
 .Our-Expertise-heading h1 {
   font-size: var(--subparaHeading);
   color: var(--primary-color);
   font-weight: 600;
+}
+
+.Our-Expertise-img {
+  z-index: 1;
 }
 .Our-Expertise ul {
   list-style-type: square;
@@ -702,6 +707,13 @@ body {
   color: var(--hover-color);
 }
 
+.Our-Expertise-shaps {
+  clip-path: polygon(0% 364%, 100% -325%, 100% 100%, 0% 100%);
+  width: 60%;
+  height: 390px;
+  background-color: var(--ligt-green);
+}
+
 .dgcargo-goods-bg {
   background-color: var(--transparentblue);
   width: fit-content;
@@ -714,7 +726,7 @@ body {
 
 .dgcargo-goods-cargo-bg-image-position {
   position: absolute;
-  bottom: -18px;
+  bottom: 0;
   padding: 0;
 }
 
@@ -724,6 +736,93 @@ body {
   font-weight: 800;
   padding: 50px;
   margin: 0;
+}
+
+/* Why-Trust-Fastride */
+
+.Why-Trust-Fastride {
+  background-image: url("../images/DG-cargo/1920\ x\ 730.jpg");
+  width: 100%;
+  object-fit: contain;
+  object-position: center;
+  height: 500px;
+}
+
+.Why-Trust-Fastride-container h1 {
+  font-size: var(--subparaHeading);
+  color: white;
+  font-weight: 600;
+  padding-bottom: 40px;
+}
+
+.Experienced-Team-container {
+  background-color: white;
+  color: black;
+  text-align: center;
+  height: 250px;
+}
+
+.Experienced-Team-container h3 {
+  font-size: 25px;
+  font-weight: 600;
+  padding-top: 50px;
+}
+
+.Experienced-Team-container p {
+  padding: 20px 20px 50px 20px;
+  font-size: 20px;
+}
+
+/* What-We-Handle-img */
+
+.What-We-Handle {
+  background-color: var(--primary-color);
+}
+
+.What-We-Handle-heading {
+  font-size: var(--subparaHeading);
+  font-weight: 600;
+  color: var(--ligt-green);
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.What-We-Handle-img-p p {
+  font-size: var(--subparagraph);
+  color: white;
+  text-align: justify;
+  text-align-last: center;
+}
+
+/* .Perfumes */
+
+.Perfumes {
+  padding-bottom: 184px;
+}
+
+.Perfumes p {
+  font-size: var(--subparagraph);
+  color: white;
+  text-align: justify;
+  text-align-last: left;
+  z-index: 1;
+}
+
+.Perfumes img {
+  z-index: 1;
+  width: 90%;
+}
+
+.img-Perfumes-postion {
+  position: absolute;
+  bottom: 0px;
+}
+
+.img-Perfumes-shaps {
+  clip-path: polygon(0% 0%, 60% 0%, 73% 100%, 0% 100%);
+  width: 60%;
+  height: 390px;
+  background-color: var(--ligt-green);
 }
 
 /* .testing-right {
@@ -867,6 +966,12 @@ body {
     --subparaHeading: 45px;
     --subparagraph: 18px;
   }
+
+  .dgcargo-goods-cargo-bg-image-position {
+    position: absolute;
+    bottom: -12px;
+    padding: 0;
+  }
 }
 
 @media (max-width: 1390px) {
@@ -886,6 +991,21 @@ body {
     top: 36px;
     transform: translateY(-50%);
     pointer-events: none; /* Ensures the icon doesn't block input clicks */
+  }
+
+  .Why-Trust-Fastride {
+    background-image: url("../images/DG-cargo/1920\ x\ 730.jpg");
+    width: 100%;
+    object-fit: contain;
+    object-position: center;
+    height: 500px;
+  }
+
+  .Experienced-Team-container {
+    background-color: white;
+    color: black;
+    text-align: center;
+    height: 300px;
   }
 }
 
@@ -921,6 +1041,25 @@ body {
     border-top: 150px solid white; /* Flip the triangle upwards */
     border-bottom: 0px solid orange;
     width: 30%;
+  }
+
+  .dgcargo-goods-bg-img {
+    position: relative;
+    right: 48px;
+  }
+
+  .dgcargo-goods-cargo-bg-image-position {
+    position: absolute;
+    bottom: 0;
+    padding: 0;
+  }
+
+  .dg-heading h1 {
+    color: white;
+    font-size: 65px;
+    font-weight: 800;
+    padding: 50px;
+    margin: 0;
   }
 }
 
@@ -1060,6 +1199,80 @@ body {
     display: flex;
     justify-content: flex-end;
   }
+
+  .Why-Trust-Fastride {
+    background-image: url("../images/DG-cargo/1920\ x\ 730.jpg");
+    width: 100%;
+    object-fit: contain;
+    object-position: center;
+    height: 500px;
+  }
+
+  .Experienced-Team-container {
+    background-color: white;
+    color: black;
+    text-align: center;
+    height: 250px;
+  }
+
+  .Experienced-Team-container h3 {
+    font-size: 20px;
+    font-weight: 600;
+    padding-top: 50px;
+  }
+
+  .Experienced-Team-container p {
+    padding: 20px 20px 50px 20px;
+    font-size: 16px;
+  }
+
+  .Perfumes {
+    padding-bottom: 150px;
+  }
+
+  .Perfumes p {
+    font-size: var(--subparagraph);
+    color: white;
+    text-align: justify;
+    text-align-last: left;
+    z-index: 1;
+  }
+
+  .Perfumes img {
+    z-index: 1;
+    width: 98%;
+  }
+
+  .img-Perfumes-postion {
+    position: absolute;
+    bottom: 0px;
+  }
+
+  .img-Perfumes-shaps {
+    clip-path: polygon(0% 0%, 60% 0%, 73% 100%, 0% 100%);
+    width: 60%;
+    height: 390px;
+    background-color: var(--ligt-green);
+  }
+
+  .dgcargo-goods-bg-img {
+    position: relative;
+    right: 48px;
+  }
+
+  .dgcargo-goods-cargo-bg-image-position {
+    position: absolute;
+    bottom: 0;
+    padding: 0;
+  }
+
+  .dg-heading h1 {
+    color: white;
+    font-size: 60px;
+    font-weight: 800;
+    padding: 50px;
+    margin: 0;
+  }
 }
 
 @media (max-width: 1180px) {
@@ -1159,6 +1372,25 @@ body {
     position: absolute;
     top: -286px;
     left: 100px;
+  }
+
+  .dgcargo-goods-bg-img {
+    position: relative;
+    right: 48px;
+  }
+
+  .dgcargo-goods-cargo-bg-image-position {
+    position: absolute;
+    bottom: 0;
+    padding: 0;
+  }
+
+  .dg-heading h1 {
+    color: white;
+    font-size: 50px;
+    font-weight: 800;
+    padding: 50px;
+    margin: 0;
   }
 }
 
@@ -1275,6 +1507,61 @@ body {
     transition: color 0.3s ease, font-size 0.3s ease;
     font-weight: 500;
   }
+
+  .Why-Trust-Fastride {
+    background-image: url("../images/DG-cargo/1920\ x\ 730.jpg");
+    width: 100%;
+    object-fit: contain;
+    object-position: center;
+    height: 500px;
+  }
+
+  .Experienced-Team-container {
+    background-color: white;
+    color: black;
+    text-align: center;
+    height: 350px;
+  }
+
+  .Experienced-Team-container h3 {
+    font-size: 20px;
+    font-weight: 600;
+    padding-top: 50px;
+  }
+
+  .Experienced-Team-container p {
+    padding: 20px 20px 50px 20px;
+    font-size: 16px;
+  }
+
+  .Perfumes {
+    padding-bottom: 150px;
+  }
+
+  .Perfumes p {
+    font-size: var(--subparagraph);
+    color: white;
+    text-align: justify;
+    text-align-last: left;
+    z-index: 1;
+  }
+
+  .Perfumes img {
+    z-index: 1;
+    width: 100%;
+  }
+
+  .img-Perfumes-postion {
+    position: absolute;
+    bottom: 0px;
+  }
+
+  .img-Perfumes-shaps {
+    clip-path: polygon(0% 0%, 60% 0%, 73% 100%, 0% 100%);
+    width: 60%;
+    height: 390px;
+    background-color: var(--ligt-green);
+  }
 }
 
 @media (max-width: 990px) {
@@ -1331,6 +1618,25 @@ body {
     border-top: 460px solid var(--transparentblue); /* Flip the triangle upwards */
     border-bottom: 0px solid orange;
     width: 59%;
+  }
+
+  .dgcargo-goods-bg-img {
+    position: relative;
+    right: 48px;
+  }
+
+  .dgcargo-goods-cargo-bg-image-position {
+    position: absolute;
+    bottom: 0;
+    padding: 0;
+  }
+
+  .dg-heading h1 {
+    color: white;
+    font-size: 45px;
+    font-weight: 800;
+    padding: 50px;
+    margin: 0;
   }
 }
 
@@ -1399,6 +1705,25 @@ body {
     object-fit: cover;
     object-position: fill;
   }
+
+  .dgcargo-goods-bg-img {
+    position: relative;
+    right: 48px;
+  }
+
+  .dgcargo-goods-cargo-bg-image-position {
+    position: absolute;
+    bottom: 0;
+    padding: 0;
+  }
+
+  .dg-heading h1 {
+    color: white;
+    font-size: 35px;
+    font-weight: 800;
+    padding: 50px;
+    margin: 0;
+  }
 }
 
 @media (max-width: 790px) {
@@ -1434,6 +1759,34 @@ body {
     display: flex;
     justify-content: flex-end;
   }
+
+  .Why-Trust-Fastride {
+    background-image: url("../images/DG-cargo/1920\ x\ 730.jpg");
+    width: 100%;
+    object-fit: contain;
+    object-position: center;
+    height: 1100px;
+  }
+
+  .Experienced-Team-container {
+    background-color: white;
+    color: black;
+    text-align: center;
+    height: fit-content;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  .Experienced-Team-container h3 {
+    font-size: 20px;
+    font-weight: 600;
+    padding-top: 50px;
+  }
+
+  .Experienced-Team-container p {
+    padding: 20px 20px 50px 20px;
+    font-size: 16px;
+  }
 }
 
 @media (max-width: 750px) {
@@ -1463,6 +1816,25 @@ body {
 
   .projects-icon-alignment {
     display: block;
+  }
+
+  .dgcargo-goods-bg-img {
+    position: relative;
+    right: 48px;
+  }
+
+  .dgcargo-goods-cargo-bg-image-position {
+    position: absolute;
+    bottom: 0;
+    padding: 0;
+  }
+
+  .dg-heading h1 {
+    color: white;
+    font-size: 20px;
+    font-weight: 800;
+    padding: 50px;
+    margin: 0;
   }
 }
 
@@ -1550,6 +1922,42 @@ body {
   .projects-icon-alignment {
     display: block;
   }
+
+  .Why-Trust-Fastride {
+    background-image: url("../images/DG-cargo/1920\ x\ 730.jpg");
+    width: 100%;
+    object-fit: contain;
+    object-position: center;
+    height: fit-content;
+  }
+
+  .Experienced-Team-container {
+    background-color: white;
+    color: black;
+    text-align: center;
+    height: fit-content;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  .Experienced-Team-container h3 {
+    font-size: 20px;
+    font-weight: 600;
+    padding-top: 50px;
+  }
+
+  .Experienced-Team-container p {
+    padding: 20px 20px 50px 20px;
+    font-size: 16px;
+  }
+
+  .Why-Trust-Fastride-container h1 {
+    font-size: var(--subparaHeading);
+    color: white;
+    font-weight: 600;
+    padding-bottom: 40px;
+    padding-top: 40px;
+  }
 }
 
 @media (max-width: 490px) {
@@ -1628,6 +2036,25 @@ body {
     --paragraphsize: 8px;
     --subparaHeading: 27px;
     --subparagraph: 15px;
+  }
+
+  .dgcargo-goods-bg-img {
+    position: relative;
+    right: 10px;
+  }
+
+  .dgcargo-goods-cargo-bg-image-position {
+    position: absolute;
+    bottom: -9px;
+    padding: 0;
+  }
+
+  .dg-heading h1 {
+    color: white;
+    font-size: 17px;
+    font-weight: 800;
+    padding: 14px;
+    margin: 0;
   }
 }
 
@@ -1926,5 +2353,24 @@ body {
 
   .Fast-Ride-Shipping-l-l-c {
     padding: 855px 0px 100px 0px;
+  }
+
+  .dgcargo-goods-bg-img {
+    position: relative;
+    right: 10px;
+  }
+
+  .dgcargo-goods-cargo-bg-image-position {
+    position: absolute;
+    bottom: -9px;
+    padding: 0;
+  }
+
+  .dg-heading h1 {
+    color: white;
+    font-size: 15px;
+    font-weight: 800;
+    padding: 14px;
+    margin: 0;
   }
 }
