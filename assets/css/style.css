@@ -1019,6 +1019,25 @@ body {
     border-bottom: 0px solid orange;
     width: 55%;
   }
+
+  .dgcargo-goods-bg-img {
+    position: relative;
+    right: 48px;
+  }
+
+  .dgcargo-goods-cargo-bg-image-position {
+    position: absolute;
+    bottom: 0;
+    padding: 0;
+  }
+
+  .dg-heading h1 {
+    color: white;
+    font-size: 60px;
+    font-weight: 800;
+    padding: 50px;
+    margin: 0;
+  }
 }
 
 @media (max-width: 1340px) {
@@ -1056,7 +1075,7 @@ body {
 
   .dg-heading h1 {
     color: white;
-    font-size: 65px;
+    font-size: 60px;
     font-weight: 800;
     padding: 50px;
     margin: 0;
