@@ -969,6 +969,12 @@ body {
   font-weight: 600;
 }
 
+.Client-Stories h3 {
+  font-size: 30px;
+  color: black;
+  font-weight: 600;
+}
+
 .Client-Stories p {
   font-size: var(--subparagraph);
   text-align: justify;
