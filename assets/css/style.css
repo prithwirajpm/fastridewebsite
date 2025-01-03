@@ -946,6 +946,7 @@ body {
   font-size: var(--subparagraph);
   text-align: justify;
   text-align-last: center;
+  color: black;
 }
 
 .Get-to-Know-Us a {
@@ -996,13 +997,13 @@ body {
 }
 
 /* *****************************************connetUs******************************************************* */
-.Get-to-Know-Us h1 {
+.Get-to-Know-Us-heading h1 {
   font-size: var(--mainheadingSize);
   color: var(--ligt-green);
   font-weight: 600;
 }
 
-.Get-to-Know-Us p {
+.Get-to-Know-Us-heading p {
   font-size: 22px;
   color: white;
   text-align: justify;
@@ -2130,17 +2131,17 @@ body {
     margin: 0;
   }
 
-  .Get-to-Know-Us {
+  .Get-to-Know-Us-heading {
     padding: 0px 0px;
   }
 
-  .Get-to-Know-Us h1 {
+  .Get-to-Know-Us-heading h1 {
     font-size: var(--mainheadingSize);
     color: var(--ligt-green);
     font-weight: 600;
   }
 
-  .Get-to-Know-Us p {
+  .Get-to-Know-Us-heading p {
     font-size: 17px;
     color: white;
     text-align: justify;
@@ -2269,17 +2270,17 @@ body {
     padding-top: 40px;
   }
 
-  .Get-to-Know-Us {
+  .Get-to-Know-Us-heading {
     padding: 0px 0px;
   }
 
-  .Get-to-Know-Us h1 {
+  .Get-to-Know-Us-heading h1 {
     font-size: var(--mainheadingSize);
     color: var(--ligt-green);
     font-weight: 600;
   }
 
-  .Get-to-Know-Us p {
+  .Get-to-Know-Us-heading p {
     font-size: var(--subparagraph);
     color: white;
     text-align: justify;
@@ -2504,13 +2505,13 @@ body {
     --subparagraph: 13px;
   }
 
-  .Get-to-Know-Us h1 {
+  .Get-to-Know-Us-heading h1 {
     font-size: 27px;
     color: var(--ligt-green);
     font-weight: 600;
   }
 
-  .Get-to-Know-Us p {
+  .Get-to-Know-Us-heading p {
     font-size: 10px;
     color: white;
     text-align: justify;
@@ -2605,13 +2606,13 @@ body {
     left: 30px;
   }
 
-  .Get-to-Know-Us h1 {
+  .Get-to-Know-Us-heading h1 {
     font-size: 20px;
     color: var(--ligt-green);
     font-weight: 600;
   }
 
-  .Get-to-Know-Us p {
+  .Get-to-Know-Us-heading p {
     font-size: 10px;
     color: white;
     text-align: justify;
@@ -2727,13 +2728,13 @@ body {
     margin: 0;
   }
 
-  .Get-to-Know-Us h1 {
+  .Get-to-Know-Us-heading h1 {
     font-size: 20px;
     color: var(--ligt-green);
     font-weight: 600;
   }
 
-  .Get-to-Know-Us p {
+  .Get-to-Know-Us-heading p {
     font-size: 10px;
     color: white;
     text-align: justify;
