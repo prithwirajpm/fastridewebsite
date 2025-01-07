@@ -296,6 +296,10 @@ body {
   font-weight: 600;
 }
 
+.Our-Key-Destinations-bg-img img {
+  height: 100%;
+}
+
 /* Our-Key-Destinations-bg-img */
 /* 
 .Our-Key-Destinations-bg-img {
@@ -2147,6 +2151,18 @@ body {
     text-align: justify;
     text-align-last: left;
   }
+
+  .track-your-shippment-orders {
+    width: 100%;
+    padding: 60px 0px;
+    background: var(--footerbgcolor);
+  }
+
+  .track-your-shippment-pargraph {
+    width: 100%;
+    text-align: justify;
+    text-align-last: center;
+  }
 }
 
 @media (max-width: 500px) {
@@ -2197,7 +2213,7 @@ body {
   }
 
   .Fast-Ride-Shipping-l-l-c {
-    padding: 775px 0px 100px 0px;
+    padding: 580px 0px 100px 0px;
   }
 
   .videosdiv {
@@ -2285,6 +2301,22 @@ body {
     color: white;
     text-align: justify;
     text-align-last: left;
+  }
+
+  .track-your-shippment-orders {
+    width: 100%;
+    padding: 60px 0px;
+    background: var(--footerbgcolor);
+  }
+
+  .projects-paragraphalignment {
+    text-align: justify;
+    text-align-last: center;
+    font-size: var(--subparagraph);
+  }
+
+  .Our-Key-Destinations-bg-img img {
+    height: 500px;
   }
 }
 
@@ -2660,7 +2692,7 @@ body {
   }
 
   .Fast-Ride-Shipping-l-l-c {
-    padding: 800px 0px 100px 0px;
+    padding: 580px 0px 100px 0px;
   }
 
   .videosdiv {
@@ -2706,7 +2738,7 @@ body {
   }
 
   .Fast-Ride-Shipping-l-l-c {
-    padding: 855px 0px 100px 0px;
+    padding: 510px 0px 100px 0px;
   }
 
   .dgcargo-goods-bg-img {
