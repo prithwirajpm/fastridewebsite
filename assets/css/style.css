@@ -10,6 +10,64 @@ body {
   font-family: "CustomFont";
 }
 
+.border-top-image {
+  border-top: 0;
+}
+
+.mobile-logo-shap {
+  clip-path: polygon(10% 10%, 100% 10%, 70% 100%, 10% 100%);
+  background-color: var(--primary-color);
+  padding: 20px;
+}
+
+.mobile-nave-menu-ul {
+  width: 70%;
+  background-color: var(--primary-color);
+  color: white;
+}
+
+.mobile-navbarfontColorSize {
+  color: white;
+  font-size: 20px;
+  transition: color 0.3s ease, font-size 0.3s ease;
+  font-weight: 500;
+  padding-left: 20px;
+}
+
+.mobile-navbarfontColorSize:hover {
+  background-color: #3ab54a;
+  color: white;
+}
+
+.mobile-navbarfontColorSize-navmenu {
+  color: white;
+}
+
+.mobile-navbarfontColorSize-navmenu:hover {
+  background-color: #3ab54a;
+  clip-path: polygon(26% 10%, 100% 10%, 100% 100%, 10% 100%);
+  position: relative;
+  left: -100px;
+  padding-left: 100px;
+  color: white;
+}
+
+.mobile-navbarfontColorSize-socialmedia {
+  color: var(--primary-color);
+  font-size: 20px;
+  transition: color 0.3s ease, font-size 0.3s ease;
+  font-weight: 500;
+}
+
+.mobile-navbarfontColorSize-socialmedia-bg {
+  background-color: var(--footerbgcolor);
+}
+
+.mobile-whatsappColorfontsize {
+  font-size: 25px;
+  color: var(--hover-color);
+}
+
 .slider {
   display: flex;
   width: 100%;
@@ -21,6 +79,11 @@ body {
   display: flex;
   width: 300%; /* 3 banners = 300% */
   animation: slideAnimation 12s infinite;
+  height: 100%;
+}
+
+.baner-image-slider-height {
+  height: 100%;
 }
 
 .banner-section {
@@ -2163,6 +2226,12 @@ body {
     text-align: justify;
     text-align-last: center;
   }
+
+  .gatway-postion {
+    position: absolute;
+    top: 124%;
+    left: 0%;
+  }
 }
 
 @media (max-width: 500px) {
@@ -2176,15 +2245,6 @@ body {
     --paragraphsize: 8px;
     --subparaHeading: 30px;
     --subparagraph: 15px;
-  }
-  .gatway {
-    position: absolute;
-    top: 0;
-    border-left: 0px solid transparent;
-    border-right: 200px solid transparent;
-    border-top: 280px solid var(--transparentblue); /* Flip the triangle upwards */
-    border-bottom: 0px solid orange;
-    width: 80%;
   }
 
   .navbarimg {
@@ -2318,6 +2378,33 @@ body {
   .Our-Key-Destinations-bg-img img {
     height: 500px;
   }
+
+  .gatway {
+    position: absolute;
+    top: 150px;
+    border-left: 0px solid transparent;
+    border-right: 200px solid transparent;
+    border-top: 280px solid var(--transparentblue); /* Flip the triangle upwards */
+    border-bottom: 0px solid orange;
+    width: 80%;
+  }
+
+  .gatway-postion {
+    position: absolute;
+    top: 70%;
+    left: 1%;
+  }
+
+  .slides {
+    display: flex;
+    width: 300%; /* 3 banners = 300% */
+    animation: slideAnimation 12s infinite;
+    height: 400px;
+  }
+
+  .baner-image-slider-height {
+    height: 250px;
+  }
 }
 
 @media (max-width: 490px) {
@@ -2338,19 +2425,41 @@ body {
     transform: translateY(-50%);
     pointer-events: none; /* Ensures the icon doesn't block input clicks */
   }
+  .mobile-nave-menu-ul {
+    width: 70%;
+    background-color: var(--primary-color);
+    color: white;
+  }
+
+  .gatway {
+    position: absolute;
+    top: 150px;
+    border-left: 0px solid transparent;
+    border-right: 200px solid transparent;
+    border-top: 280px solid var(--transparentblue); /* Flip the triangle upwards */
+    border-bottom: 0px solid orange;
+    width: 80%;
+  }
+
+  .gatway-postion {
+    position: absolute;
+    top: 70%;
+    left: 1%;
+  }
+
+  .slides {
+    display: flex;
+    width: 300%; /* 3 banners = 300% */
+    animation: slideAnimation 12s infinite;
+    height: 400px;
+  }
+
+  .baner-image-slider-height {
+    height: 250px;
+  }
 }
 
 @media (max-width: 480px) {
-  .gatway {
-    position: absolute;
-    top: 0;
-    border-left: 0px solid transparent;
-    border-right: 200px solid transparent;
-    border-top: 260px solid var(--transparentblue); /* Flip the triangle upwards */
-    border-bottom: 0px solid orange;
-    width: 75%;
-  }
-
   .google-icon {
     position: absolute;
     right: 170px; /* Adjust as needed */
@@ -2365,19 +2474,41 @@ body {
     object-fit: cover;
     object-position: fill;
   }
+  .mobile-nave-menu-ul {
+    width: 80%;
+    background-color: var(--primary-color);
+    color: white;
+  }
+
+  .gatway {
+    position: absolute;
+    top: 150px;
+    border-left: 0px solid transparent;
+    border-right: 200px solid transparent;
+    border-top: 280px solid var(--transparentblue); /* Flip the triangle upwards */
+    border-bottom: 0px solid orange;
+    width: 80%;
+  }
+
+  .gatway-postion {
+    position: absolute;
+    top: 70%;
+    left: 1%;
+  }
+
+  .slides {
+    display: flex;
+    width: 300%; /* 3 banners = 300% */
+    animation: slideAnimation 12s infinite;
+    height: 400px;
+  }
+
+  .baner-image-slider-height {
+    height: 250px;
+  }
 }
 
 @media (max-width: 460px) {
-  .gatway {
-    position: absolute;
-    top: 0;
-    border-left: 0px solid transparent;
-    border-right: 200px solid transparent;
-    border-top: 250px solid var(--transparentblue); /* Flip the triangle upwards */
-    border-bottom: 0px solid orange;
-    width: 75%;
-  }
-
   .google-icon {
     position: absolute;
     right: 170px; /* Adjust as needed */
@@ -2416,17 +2547,61 @@ body {
     padding: 14px;
     margin: 0;
   }
+
+  .gatway {
+    position: absolute;
+    top: 150px;
+    border-left: 0px solid transparent;
+    border-right: 200px solid transparent;
+    border-top: 280px solid var(--transparentblue); /* Flip the triangle upwards */
+    border-bottom: 0px solid orange;
+    width: 80%;
+  }
+
+  .gatway-postion {
+    position: absolute;
+    top: 70%;
+    left: 1%;
+  }
+
+  .slides {
+    display: flex;
+    width: 300%; /* 3 banners = 300% */
+    animation: slideAnimation 12s infinite;
+    height: 400px;
+  }
+
+  .baner-image-slider-height {
+    height: 250px;
+  }
 }
 
 @media (max-width: 440px) {
   .gatway {
     position: absolute;
-    top: 0;
+    top: 150px;
     border-left: 0px solid transparent;
     border-right: 200px solid transparent;
-    border-top: 240px solid var(--transparentblue); /* Flip the triangle upwards */
+    border-top: 280px solid var(--transparentblue); /* Flip the triangle upwards */
     border-bottom: 0px solid orange;
-    width: 75%;
+    width: 80%;
+  }
+
+  .gatway-postion {
+    position: absolute;
+    top: 70%;
+    left: 1%;
+  }
+
+  .slides {
+    display: flex;
+    width: 300%; /* 3 banners = 300% */
+    animation: slideAnimation 12s infinite;
+    height: 400px;
+  }
+
+  .baner-image-slider-height {
+    height: 250px;
   }
 
   .google-icon {
@@ -2456,17 +2631,48 @@ body {
     --subparaHeading: 27px;
     --subparagraph: 13px;
   }
+  .mobile-nave-menu-ul {
+    width: 80%;
+    background-color: var(--primary-color);
+    color: white;
+  }
+
+  .mobile-navbarfontColorSize-navmenu:hover {
+    background-color: #3ab54a;
+    clip-path: polygon(26% 10%, 100% 10%, 100% 100%, 10% 100%);
+    position: relative;
+    left: -82px;
+    padding-left: 100px;
+    color: white;
+  }
 }
 
 @media (max-width: 420px) {
   .gatway {
     position: absolute;
-    top: 0;
+    top: 150px;
     border-left: 0px solid transparent;
     border-right: 200px solid transparent;
-    border-top: 233px solid var(--transparentblue); /* Flip the triangle upwards */
+    border-top: 280px solid var(--transparentblue); /* Flip the triangle upwards */
     border-bottom: 0px solid orange;
-    width: 75%;
+    width: 80%;
+  }
+
+  .gatway-postion {
+    position: absolute;
+    top: 70%;
+    left: 1%;
+  }
+
+  .slides {
+    display: flex;
+    width: 300%; /* 3 banners = 300% */
+    animation: slideAnimation 12s infinite;
+    height: 400px;
+  }
+
+  .baner-image-slider-height {
+    height: 250px;
   }
 
   .google-icon {
@@ -2504,17 +2710,43 @@ body {
     top: -201px;
     left: 30px;
   }
+
+  .mobile-navbarfontColorSize-navmenu:hover {
+    background-color: #3ab54a;
+    clip-path: polygon(27% 10%, 100% 10%, 100% 100%, 10% 100%);
+    position: relative;
+    left: -90px;
+    padding-left: 100px;
+    color: white;
+  }
 }
 
 @media (max-width: 410px) {
   .gatway {
     position: absolute;
-    top: 0;
+    top: 150px;
     border-left: 0px solid transparent;
     border-right: 200px solid transparent;
-    border-top: 225px solid var(--transparentblue); /* Flip the triangle upwards */
+    border-top: 280px solid var(--transparentblue); /* Flip the triangle upwards */
     border-bottom: 0px solid orange;
-    width: 75%;
+    width: 80%;
+  }
+
+  .gatway-postion {
+    position: absolute;
+    top: 70%;
+    left: 1%;
+  }
+
+  .slides {
+    display: flex;
+    width: 300%; /* 3 banners = 300% */
+    animation: slideAnimation 12s infinite;
+    height: 400px;
+  }
+
+  .baner-image-slider-height {
+    height: 250px;
   }
 
   .google-icon {
@@ -2554,12 +2786,29 @@ body {
 @media (max-width: 390px) {
   .gatway {
     position: absolute;
-    top: 0;
+    top: 150px;
     border-left: 0px solid transparent;
     border-right: 200px solid transparent;
-    border-top: 223px solid var(--transparentblue); /* Flip the triangle upwards */
+    border-top: 280px solid var(--transparentblue); /* Flip the triangle upwards */
     border-bottom: 0px solid orange;
     width: 80%;
+  }
+
+  .gatway-postion {
+    position: absolute;
+    top: 70%;
+    left: 1%;
+  }
+
+  .slides {
+    display: flex;
+    width: 300%; /* 3 banners = 300% */
+    animation: slideAnimation 12s infinite;
+    height: 400px;
+  }
+
+  .baner-image-slider-height {
+    height: 250px;
   }
 
   .google-icon {
@@ -2582,12 +2831,6 @@ body {
     --subparagraph: 13px;
   }
 
-  .gatway-postion {
-    position: absolute;
-    top: 34%;
-    left: 1%;
-  }
-
   .special-Expertise-icon {
     position: absolute;
     top: -28px;
@@ -2599,12 +2842,29 @@ body {
 @media (max-width: 384px) {
   .gatway {
     position: absolute;
-    top: 0;
+    top: 150px;
     border-left: 0px solid transparent;
     border-right: 200px solid transparent;
-    border-top: 215px solid var(--transparentblue); /* Flip the triangle upwards */
+    border-top: 280px solid var(--transparentblue); /* Flip the triangle upwards */
     border-bottom: 0px solid orange;
     width: 80%;
+  }
+
+  .gatway-postion {
+    position: absolute;
+    top: 70%;
+    left: 1%;
+  }
+
+  .slides {
+    display: flex;
+    width: 300%; /* 3 banners = 300% */
+    animation: slideAnimation 12s infinite;
+    height: 400px;
+  }
+
+  .baner-image-slider-height {
+    height: 250px;
   }
 
   .google-icon {
@@ -2655,12 +2915,29 @@ body {
 @media (max-width: 374px) {
   .gatway {
     position: absolute;
-    top: 0;
+    top: 150px;
     border-left: 0px solid transparent;
     border-right: 200px solid transparent;
-    border-top: 210px solid var(--transparentblue); /* Flip the triangle upwards */
+    border-top: 280px solid var(--transparentblue); /* Flip the triangle upwards */
     border-bottom: 0px solid orange;
     width: 80%;
+  }
+
+  .gatway-postion {
+    position: absolute;
+    top: 70%;
+    left: 1%;
+  }
+
+  .slides {
+    display: flex;
+    width: 300%; /* 3 banners = 300% */
+    animation: slideAnimation 12s infinite;
+    height: 400px;
+  }
+
+  .baner-image-slider-height {
+    height: 250px;
   }
 
   .google-icon {
@@ -2675,12 +2952,29 @@ body {
 @media (max-width: 358px) {
   .gatway {
     position: absolute;
-    top: 0;
+    top: 150px;
     border-left: 0px solid transparent;
     border-right: 200px solid transparent;
-    border-top: 200px solid var(--transparentblue); /* Flip the triangle upwards */
+    border-top: 280px solid var(--transparentblue); /* Flip the triangle upwards */
     border-bottom: 0px solid orange;
     width: 80%;
+  }
+
+  .gatway-postion {
+    position: absolute;
+    top: 70%;
+    left: 1%;
+  }
+
+  .slides {
+    display: flex;
+    width: 300%; /* 3 banners = 300% */
+    animation: slideAnimation 12s infinite;
+    height: 400px;
+  }
+
+  .baner-image-slider-height {
+    height: 250px;
   }
 
   .google-icon {
@@ -2716,17 +3010,48 @@ body {
     top: -201px;
     left: 30px;
   }
+
+  .mobile-nave-menu-ul {
+    width: 82%;
+    background-color: var(--primary-color);
+    color: white;
+  }
+  .mobile-navbarfontColorSize-navmenu:hover {
+    background-color: #3ab54a;
+    clip-path: polygon(27% 10%, 100% 10%, 100% 100%, 10% 100%);
+    position: relative;
+    left: -82px;
+    padding-left: 100px;
+    color: white;
+  }
 }
 
 @media (max-width: 320px) {
   .gatway {
     position: absolute;
-    top: 0;
+    top: 150px;
     border-left: 0px solid transparent;
     border-right: 200px solid transparent;
-    border-top: 200px solid var(--transparentblue); /* Flip the triangle upwards */
+    border-top: 280px solid var(--transparentblue); /* Flip the triangle upwards */
     border-bottom: 0px solid orange;
     width: 80%;
+  }
+
+  .gatway-postion {
+    position: absolute;
+    top: 70%;
+    left: 1%;
+  }
+
+  .slides {
+    display: flex;
+    width: 300%; /* 3 banners = 300% */
+    animation: slideAnimation 12s infinite;
+    height: 400px;
+  }
+
+  .baner-image-slider-height {
+    height: 250px;
   }
 
   .google-icon {
