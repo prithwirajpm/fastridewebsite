@@ -542,6 +542,11 @@ body {
 
 /* ************************************ sevices-page ************************************************************ */
 /* comprehensive-Freight-Solutions */
+
+.sevices-plane-image-banner img {
+  width: 100%;
+  height: auto;
+}
 .comprehensive-Freight-Solutions {
   position: absolute;
   top: -360px;
@@ -2224,13 +2229,38 @@ body {
   .track-your-shippment-pargraph {
     width: 100%;
     text-align: justify;
-    text-align-last: center;
+    text-align-last: left;
   }
 
   .gatway-postion {
     position: absolute;
     top: 124%;
     left: 0%;
+  }
+
+  .Our-Key-Destinations-paragraph {
+    font-size: var(--subparagraph);
+    color: white;
+    text-align: justify;
+    text-align-last: left;
+    width: 100%;
+  }
+
+  .footerparagraphwidth {
+    width: 100%;
+    text-align: justify;
+    text-align-last: left;
+  }
+  .sevices-plane-image-banner img {
+    width: 100%;
+    height: 300px;
+  }
+
+  .special-Expertise-paragraph p {
+    font-size: var(--subparagraph);
+    color: white;
+    text-align: justify;
+    text-align-last: left;
   }
 }
 
@@ -2295,7 +2325,7 @@ body {
 
   .comprehensive-Freight-Solutions-content {
     position: absolute;
-    top: -201px;
+    top: -177px;
     left: 30px;
   }
 
@@ -2371,7 +2401,7 @@ body {
 
   .projects-paragraphalignment {
     text-align: justify;
-    text-align-last: center;
+    text-align-last: left;
     font-size: var(--subparagraph);
   }
 
@@ -2645,6 +2675,10 @@ body {
     padding-left: 100px;
     color: white;
   }
+
+  .Fast-Ride-Shipping-l-l-c {
+    padding: 540px 0px 100px 0px;
+  }
 }
 
 @media (max-width: 420px) {
@@ -2707,8 +2741,8 @@ body {
 
   .comprehensive-Freight-Solutions-content {
     position: absolute;
-    top: -201px;
-    left: 30px;
+    top: -181px;
+    left: 22px;
   }
 
   .mobile-navbarfontColorSize-navmenu:hover {
@@ -2894,8 +2928,8 @@ body {
 
   .comprehensive-Freight-Solutions-content {
     position: absolute;
-    top: -201px;
-    left: 30px;
+    top: -181px;
+    left: 22px;
   }
 
   .Get-to-Know-Us-heading h1 {
@@ -2947,6 +2981,10 @@ body {
     transform: translateY(-50%);
     pointer-events: none; /* Ensures the icon doesn't block input clicks */
   }
+
+  .Fast-Ride-Shipping-l-l-c {
+    padding: 500px 0px 100px 0px;
+  }
 }
 
 @media (max-width: 358px) {
@@ -2986,7 +3024,7 @@ body {
   }
 
   .Fast-Ride-Shipping-l-l-c {
-    padding: 580px 0px 100px 0px;
+    padding: 500px 0px 100px 0px;
   }
 
   .videosdiv {
@@ -2999,7 +3037,7 @@ body {
     position: absolute;
     top: -201px;
     border-left: 0px solid transparent;
-    border-right: 134px solid transparent;
+    border-right: 65px solid transparent;
     border-top: 0px solid transparent; /* Flip the triangle upwards */
     border-bottom: 300px solid var(--transparentblue);
     width: 90%;
@@ -3007,8 +3045,8 @@ body {
 
   .comprehensive-Freight-Solutions-content {
     position: absolute;
-    top: -201px;
-    left: 30px;
+    top: -181px;
+    left: 22px;
   }
 
   .mobile-nave-menu-ul {
