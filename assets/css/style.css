@@ -953,6 +953,11 @@ body {
   height: 100%;
 }
 
+.Our-Commitment-img {
+  width: 100%;
+  height: auto;
+}
+
 .Our-Commitment h1 {
   font-size: var(--subparaHeading);
   font-weight: 600;
@@ -2261,6 +2266,39 @@ body {
     color: white;
     text-align: justify;
     text-align-last: left;
+  }
+
+  .The-Fastride-Story-heading-paragraph p {
+    font-size: var(--subparagraph);
+    text-align: justify;
+    text-align-last: left;
+  }
+
+  .Our-Leadership-heading-paragraph p {
+    font-size: var(--subparagraph);
+    text-align: justify;
+    text-align-last: left;
+  }
+  .Our-Commitment-img {
+    width: 100%;
+    height: 350px;
+  }
+
+  .quats-postion {
+    position: absolute;
+    top: -28px;
+    left: 0px;
+  }
+
+  .Get-to-Know-Us {
+    padding: 20px 0px 20px 0px;
+  }
+
+  .Get-to-Know-Us p {
+    font-size: var(--subparagraph);
+    text-align: justify;
+    text-align-last: left;
+    color: black;
   }
 }
 
