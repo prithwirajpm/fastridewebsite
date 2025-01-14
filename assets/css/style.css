@@ -198,6 +198,14 @@ body {
   height: 40px;
 }
 
+.border-sm-bottom {
+  border-bottom: none;
+}
+
+.border-sm-top {
+  border-top: none;
+}
+
 /* footer section */
 
 .footer-section {
@@ -759,6 +767,7 @@ body {
 
 .Our-Expertise-img {
   z-index: 1;
+  width: 70%;
 }
 .Our-Expertise ul {
   list-style-type: square;
@@ -887,7 +896,7 @@ body {
 
 .img-Perfumes-postion {
   position: absolute;
-  bottom: 0px;
+  bottom: 0;
 }
 
 .img-Perfumes-shaps {
@@ -1616,7 +1625,7 @@ body {
 
   .img-Perfumes-postion {
     position: absolute;
-    bottom: 0px;
+    bottom: 0;
   }
 
   .img-Perfumes-shaps {
@@ -1924,7 +1933,7 @@ body {
 
   .img-Perfumes-postion {
     position: absolute;
-    bottom: 0px;
+    bottom: 0;
   }
 
   .img-Perfumes-shaps {
@@ -2299,6 +2308,43 @@ body {
     text-align: justify;
     text-align-last: left;
     color: black;
+  }
+
+  .Our-Expertise-img {
+    z-index: 1;
+    width: 90%;
+  }
+
+  .Our-Expertise-shaps {
+    clip-path: polygon(0% 364%, 100% -325%, 100% 100%, 0% 100%);
+    width: 100%;
+    height: 276px;
+    background-color: var(--ligt-green);
+  }
+
+  .Perfumes {
+    padding-bottom: 60px;
+  }
+
+  .img-Perfumes-shaps {
+    clip-path: polygon(0% 0%, 60% 0%, 73% 100%, 0% 100%);
+    width: 60%;
+    height: 175px;
+    background-color: var(--ligt-green);
+  }
+
+  .safe-Compliant-heading-paragraph p {
+    font-size: var(--subparagraph);
+    text-align: justify;
+    text-align-last: left;
+  }
+
+  .border-sm-bottom {
+    border-bottom: 1px solid white;
+  }
+
+  .border-sm-top {
+    border-top: 1px solid white;
   }
 }
 
@@ -2908,6 +2954,13 @@ body {
     top: -28px;
     display: flex;
     justify-content: flex-end;
+  }
+
+  .Our-Expertise-shaps {
+    clip-path: polygon(0% 364%, 100% -325%, 100% 100%, 0% 100%);
+    width: 100%;
+    height: 250px;
+    background-color: var(--ligt-green);
   }
 }
 
