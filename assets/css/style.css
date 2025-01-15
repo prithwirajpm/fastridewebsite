@@ -14,6 +14,11 @@ body {
   border-top: 0;
 }
 
+.mobile-icons-colors-footer a {
+  text-decoration: none;
+  color: var(--primary-color);
+}
+
 .mobile-logo-shap {
   clip-path: polygon(10% 10%, 100% 10%, 70% 100%, 10% 100%);
   background-color: var(--primary-color);
