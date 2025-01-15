@@ -800,6 +800,18 @@ body {
   width: fit-content;
 }
 
+.dgcargo-goods-bg-mobile {
+  background-color: var(--transparentblue);
+  width: fit-content;
+  clip-path: polygon(0% 0%, 100% 0%, 85% 100%, 0% 100%);
+}
+
+.dgcargo-goods-bg-img-mobile {
+  position: absolute;
+  top: -21px;
+  right: 0;
+}
+
 .dgcargo-goods-bg-img {
   position: relative;
   right: 48px;
@@ -1330,7 +1342,7 @@ body {
 
   .dgcargo-goods-cargo-bg-image-position {
     position: absolute;
-    bottom: -12px;
+    bottom: 0;
     padding: 0;
   }
 }
@@ -2213,7 +2225,7 @@ body {
     color: white;
     font-size: 20px;
     font-weight: 800;
-    padding: 50px;
+    padding: 40px;
     margin: 0;
   }
 
@@ -2650,15 +2662,15 @@ body {
 
   .dgcargo-goods-cargo-bg-image-position {
     position: absolute;
-    bottom: -9px;
+    bottom: 0;
     padding: 0;
   }
 
   .dg-heading h1 {
     color: white;
-    font-size: 17px;
+    font-size: 22px;
     font-weight: 800;
-    padding: 14px;
+    padding: 24px;
     margin: 0;
   }
 
@@ -3202,16 +3214,8 @@ body {
 
   .dgcargo-goods-cargo-bg-image-position {
     position: absolute;
-    bottom: -9px;
+    bottom: 0;
     padding: 0;
-  }
-
-  .dg-heading h1 {
-    color: white;
-    font-size: 15px;
-    font-weight: 800;
-    padding: 14px;
-    margin: 0;
   }
 
   .Get-to-Know-Us-heading h1 {
