@@ -127,18 +127,13 @@
       </section>
 
       <!-- navmenu mobile change mobile design-->
-      <section class="bg-white col-12 position-fixed z-3 nav-mobile">
-        <nav class="navbar navbar-expand-lg container-fluid">
+      <section class="col-12 position-fixed z-3">
+        <nav
+          class="navbar navbar-expand-lg container-fluid nav-mobile navmenumobilebgcolor"
+        >
           <div class="container-fluid">
-            <a class="navbar-brand" href="#"
-              ><img
-                src="./assets/images/LOGO.png"
-                class="navbarimg"
-                alt=""
-                srcset=""
-            /></a>
             <button
-              class="navbar-toggler"
+              class="navbar-toggler ms-auto"
               type="button"
               data-bs-toggle="collapse"
               data-bs-target="#navbarNavDropdown"
@@ -153,7 +148,7 @@
                 class="collapse navbar-nav ms-auto mobile-nave-menu-ul"
                 id="navbarNavDropdown"
               >
-                <li class="nav-item mobile-navbarfontColorSize">
+                <li class="nav-item mobile-navbarfontColorSize mt-4">
                   <a
                     class="nav-link mobile-navbarfontColorSize-navmenu"
                     aria-current="page"
@@ -246,6 +241,15 @@
             </div>
           </div>
         </nav>
+        <div class="bg-white mobilelogo-clip-path nav-mobile">
+          <a class="navbar-brand" href="#"
+            ><img
+              src="./assets/images/LOGO.png"
+              class="navbarimg"
+              alt=""
+              srcset=""
+          /></a>
+        </div>
       </section>
 
       <!-- Gateway -->

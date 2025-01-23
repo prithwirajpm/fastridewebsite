@@ -65,3 +65,15 @@ document.addEventListener("DOMContentLoaded", function() {
     counters.forEach((counter) => observer.observe(counter));
   });
 
+
+  // JavaScript to toggle the custom navbar menu
+document.addEventListener('DOMContentLoaded', function () {
+  var navbarToggle = document.querySelector('.custom-navbar-toggler');
+  var navbarMenu = document.querySelector('.custom-navbar-collapse');
+
+  navbarToggle.addEventListener('click', function () {
+    navbarMenu.classList.toggle('show');
+  });
+});
+
+

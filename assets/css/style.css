@@ -3,6 +3,22 @@
   src: url("../Fonts/Poppins-Regular.ttf") format("truetype"); /* Path to the font file */
 }
 
+.navmenumobilebgcolor {
+  background: linear-gradient(
+    to right,
+    rgba(255, 255, 255, 0.1) 30%,
+    var(--primary-color) 30%
+  );
+}
+
+.mobilelogo-clip-path {
+  clip-path: polygon(0% 0%, 100% 0%, 70% 100%, 0% 100%);
+  width: 50%;
+  position: absolute;
+  top: 0;
+  padding: 15px;
+}
+
 body {
   background: white;
   padding: 0;
@@ -2512,10 +2528,10 @@ body {
 
   .gatway {
     position: absolute;
-    top: 150px;
+    top: 220px;
     border-left: 0px solid transparent;
     border-right: 200px solid transparent;
-    border-top: 280px solid var(--transparentblue); /* Flip the triangle upwards */
+    border-top: 280px solid var(--primary-color); /* Flip the triangle upwards */
     border-bottom: 0px solid orange;
     width: 80%;
   }
@@ -2534,7 +2550,7 @@ body {
   }
 
   .baner-image-slider-height {
-    height: 250px;
+    height: 303px;
   }
 }
 
@@ -2564,10 +2580,10 @@ body {
 
   .gatway {
     position: absolute;
-    top: 150px;
+    top: 220px;
     border-left: 0px solid transparent;
     border-right: 200px solid transparent;
-    border-top: 280px solid var(--transparentblue); /* Flip the triangle upwards */
+    border-top: 280px solid var(--primary-color); /* Flip the triangle upwards */
     border-bottom: 0px solid orange;
     width: 80%;
   }
@@ -2586,7 +2602,7 @@ body {
   }
 
   .baner-image-slider-height {
-    height: 250px;
+    height: 303px;
   }
 }
 
@@ -2613,10 +2629,10 @@ body {
 
   .gatway {
     position: absolute;
-    top: 150px;
+    top: 220px;
     border-left: 0px solid transparent;
     border-right: 200px solid transparent;
-    border-top: 280px solid var(--transparentblue); /* Flip the triangle upwards */
+    border-top: 280px solid var(--primary-color); /* Flip the triangle upwards */
     border-bottom: 0px solid orange;
     width: 80%;
   }
@@ -2635,7 +2651,7 @@ body {
   }
 
   .baner-image-slider-height {
-    height: 250px;
+    height: 303px;
   }
 }
 
@@ -2681,10 +2697,10 @@ body {
 
   .gatway {
     position: absolute;
-    top: 150px;
+    top: 220px;
     border-left: 0px solid transparent;
     border-right: 200px solid transparent;
-    border-top: 280px solid var(--transparentblue); /* Flip the triangle upwards */
+    border-top: 280px solid var(--primary-color); /* Flip the triangle upwards */
     border-bottom: 0px solid orange;
     width: 80%;
   }
@@ -2703,17 +2719,17 @@ body {
   }
 
   .baner-image-slider-height {
-    height: 250px;
+    height: 303px;
   }
 }
 
 @media (max-width: 440px) {
   .gatway {
     position: absolute;
-    top: 150px;
+    top: 220px;
     border-left: 0px solid transparent;
     border-right: 200px solid transparent;
-    border-top: 280px solid var(--transparentblue); /* Flip the triangle upwards */
+    border-top: 280px solid var(--primary-color); /* Flip the triangle upwards */
     border-bottom: 0px solid orange;
     width: 80%;
   }
@@ -2732,7 +2748,7 @@ body {
   }
 
   .baner-image-slider-height {
-    height: 250px;
+    height: 303px;
   }
 
   .google-icon {
@@ -2785,10 +2801,10 @@ body {
 @media (max-width: 420px) {
   .gatway {
     position: absolute;
-    top: 150px;
+    top: 220px;
     border-left: 0px solid transparent;
     border-right: 200px solid transparent;
-    border-top: 280px solid var(--transparentblue); /* Flip the triangle upwards */
+    border-top: 280px solid var(--primary-color); /* Flip the triangle upwards */
     border-bottom: 0px solid orange;
     width: 80%;
   }
@@ -2807,7 +2823,7 @@ body {
   }
 
   .baner-image-slider-height {
-    height: 250px;
+    height: 303px;
   }
 
   .google-icon {
@@ -2859,10 +2875,10 @@ body {
 @media (max-width: 410px) {
   .gatway {
     position: absolute;
-    top: 150px;
+    top: 220px;
     border-left: 0px solid transparent;
     border-right: 200px solid transparent;
-    border-top: 280px solid var(--transparentblue); /* Flip the triangle upwards */
+    border-top: 280px solid var(--primary-color); /* Flip the triangle upwards */
     border-bottom: 0px solid orange;
     width: 80%;
   }
@@ -2881,7 +2897,7 @@ body {
   }
 
   .baner-image-slider-height {
-    height: 250px;
+    height: 303px;
   }
 
   .google-icon {
@@ -2921,10 +2937,10 @@ body {
 @media (max-width: 390px) {
   .gatway {
     position: absolute;
-    top: 150px;
+    top: 220px;
     border-left: 0px solid transparent;
     border-right: 200px solid transparent;
-    border-top: 280px solid var(--transparentblue); /* Flip the triangle upwards */
+    border-top: 280px solid var(--primary-color); /* Flip the triangle upwards */
     border-bottom: 0px solid orange;
     width: 80%;
   }
@@ -2943,7 +2959,7 @@ body {
   }
 
   .baner-image-slider-height {
-    height: 250px;
+    height: 303px;
   }
 
   .google-icon {
@@ -2984,10 +3000,10 @@ body {
 @media (max-width: 384px) {
   .gatway {
     position: absolute;
-    top: 150px;
+    top: 220px;
     border-left: 0px solid transparent;
     border-right: 200px solid transparent;
-    border-top: 280px solid var(--transparentblue); /* Flip the triangle upwards */
+    border-top: 280px solid var(--primary-color); /* Flip the triangle upwards */
     border-bottom: 0px solid orange;
     width: 80%;
   }
@@ -3006,7 +3022,7 @@ body {
   }
 
   .baner-image-slider-height {
-    height: 250px;
+    height: 305px;
   }
 
   .google-icon {
@@ -3057,10 +3073,10 @@ body {
 @media (max-width: 374px) {
   .gatway {
     position: absolute;
-    top: 150px;
+    top: 220px;
     border-left: 0px solid transparent;
     border-right: 200px solid transparent;
-    border-top: 280px solid var(--transparentblue); /* Flip the triangle upwards */
+    border-top: 280px solid var(--primary-color); /* Flip the triangle upwards */
     border-bottom: 0px solid orange;
     width: 80%;
   }
@@ -3079,7 +3095,7 @@ body {
   }
 
   .baner-image-slider-height {
-    height: 250px;
+    height: 305px;
   }
 
   .google-icon {
@@ -3098,10 +3114,10 @@ body {
 @media (max-width: 358px) {
   .gatway {
     position: absolute;
-    top: 150px;
+    top: 220px;
     border-left: 0px solid transparent;
     border-right: 200px solid transparent;
-    border-top: 280px solid var(--transparentblue); /* Flip the triangle upwards */
+    border-top: 280px solid var(--primary-color); /* Flip the triangle upwards */
     border-bottom: 0px solid orange;
     width: 80%;
   }
@@ -3120,7 +3136,7 @@ body {
   }
 
   .baner-image-slider-height {
-    height: 250px;
+    height: 305px;
   }
 
   .google-icon {
@@ -3175,10 +3191,10 @@ body {
 @media (max-width: 320px) {
   .gatway {
     position: absolute;
-    top: 150px;
+    top: 220px;
     border-left: 0px solid transparent;
     border-right: 200px solid transparent;
-    border-top: 280px solid var(--transparentblue); /* Flip the triangle upwards */
+    border-top: 280px solid var(--primary-color); /* Flip the triangle upwards */
     border-bottom: 0px solid orange;
     width: 80%;
   }
@@ -3197,7 +3213,7 @@ body {
   }
 
   .baner-image-slider-height {
-    height: 250px;
+    height: 305px;
   }
 
   .google-icon {
