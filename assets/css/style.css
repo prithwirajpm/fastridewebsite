@@ -2408,7 +2408,7 @@ body {
 
   .google-icon {
     position: absolute;
-    right: 200px; /* Adjust as needed */
+    right: 20px; /* Adjust as needed */
     top: 36px;
     transform: translateY(-50%);
     pointer-events: none; /* Ensures the icon doesn't block input clicks */
@@ -2531,7 +2531,7 @@ body {
     top: 220px;
     border-left: 0px solid transparent;
     border-right: 200px solid transparent;
-    border-top: 280px solid var(--primary-color); /* Flip the triangle upwards */
+    border-top: 280px solid var(--transparentblue); /* Flip the triangle upwards */
     border-bottom: 0px solid orange;
     width: 80%;
   }
@@ -2567,7 +2567,7 @@ body {
 
   .google-icon {
     position: absolute;
-    right: 200px; /* Adjust as needed */
+    right: 20px; /* Adjust as needed */
     top: 36px;
     transform: translateY(-50%);
     pointer-events: none; /* Ensures the icon doesn't block input clicks */
@@ -2583,7 +2583,7 @@ body {
     top: 220px;
     border-left: 0px solid transparent;
     border-right: 200px solid transparent;
-    border-top: 280px solid var(--primary-color); /* Flip the triangle upwards */
+    border-top: 280px solid var(--transparentblue); /* Flip the triangle upwards */
     border-bottom: 0px solid orange;
     width: 80%;
   }
@@ -2609,7 +2609,7 @@ body {
 @media (max-width: 480px) {
   .google-icon {
     position: absolute;
-    right: 170px; /* Adjust as needed */
+    right: 18px; /* Adjust as needed */
     top: 36px;
     transform: translateY(-50%);
     pointer-events: none; /* Ensures the icon doesn't block input clicks */
@@ -2632,7 +2632,7 @@ body {
     top: 220px;
     border-left: 0px solid transparent;
     border-right: 200px solid transparent;
-    border-top: 280px solid var(--primary-color); /* Flip the triangle upwards */
+    border-top: 280px solid var(--transparentblue); /* Flip the triangle upwards */
     border-bottom: 0px solid orange;
     width: 80%;
   }
@@ -2658,7 +2658,7 @@ body {
 @media (max-width: 460px) {
   .google-icon {
     position: absolute;
-    right: 170px; /* Adjust as needed */
+    right: 17px; /* Adjust as needed */
     top: 36px;
     transform: translateY(-50%);
     pointer-events: none; /* Ensures the icon doesn't block input clicks */
@@ -2700,7 +2700,7 @@ body {
     top: 220px;
     border-left: 0px solid transparent;
     border-right: 200px solid transparent;
-    border-top: 280px solid var(--primary-color); /* Flip the triangle upwards */
+    border-top: 280px solid var(--transparentblue); /* Flip the triangle upwards */
     border-bottom: 0px solid orange;
     width: 80%;
   }
@@ -2729,7 +2729,7 @@ body {
     top: 220px;
     border-left: 0px solid transparent;
     border-right: 200px solid transparent;
-    border-top: 280px solid var(--primary-color); /* Flip the triangle upwards */
+    border-top: 280px solid var(--transparentblue); /* Flip the triangle upwards */
     border-bottom: 0px solid orange;
     width: 80%;
   }
@@ -2753,7 +2753,7 @@ body {
 
   .google-icon {
     position: absolute;
-    right: 200px; /* Adjust as needed */
+    right: 20px; /* Adjust as needed */
     top: 36px;
     transform: translateY(-50%);
     pointer-events: none; /* Ensures the icon doesn't block input clicks */
@@ -2804,7 +2804,7 @@ body {
     top: 220px;
     border-left: 0px solid transparent;
     border-right: 200px solid transparent;
-    border-top: 280px solid var(--primary-color); /* Flip the triangle upwards */
+    border-top: 280px solid var(--transparentblue); /* Flip the triangle upwards */
     border-bottom: 0px solid orange;
     width: 80%;
   }
@@ -2828,7 +2828,7 @@ body {
 
   .google-icon {
     position: absolute;
-    right: 120px; /* Adjust as needed */
+    right: 17px; /* Adjust as needed */
     top: 36px;
     transform: translateY(-50%);
     pointer-events: none; /* Ensures the icon doesn't block input clicks */
@@ -2878,7 +2878,7 @@ body {
     top: 220px;
     border-left: 0px solid transparent;
     border-right: 200px solid transparent;
-    border-top: 280px solid var(--primary-color); /* Flip the triangle upwards */
+    border-top: 280px solid var(--transparentblue); /* Flip the triangle upwards */
     border-bottom: 0px solid orange;
     width: 80%;
   }
@@ -2902,7 +2902,7 @@ body {
 
   .google-icon {
     position: absolute;
-    right: 100px; /* Adjust as needed */
+    right: 16px; /* Adjust as needed */
     top: 36px;
     transform: translateY(-50%);
     pointer-events: none; /* Ensures the icon doesn't block input clicks */
@@ -2940,7 +2940,7 @@ body {
     top: 220px;
     border-left: 0px solid transparent;
     border-right: 200px solid transparent;
-    border-top: 280px solid var(--primary-color); /* Flip the triangle upwards */
+    border-top: 280px solid var(--transparentblue); /* Flip the triangle upwards */
     border-bottom: 0px solid orange;
     width: 80%;
   }
@@ -2964,7 +2964,7 @@ body {
 
   .google-icon {
     position: absolute;
-    right: 100px; /* Adjust as needed */
+    right: 16px; /* Adjust as needed */
     top: 36px;
     transform: translateY(-50%);
     pointer-events: none; /* Ensures the icon doesn't block input clicks */
@@ -3003,7 +3003,7 @@ body {
     top: 220px;
     border-left: 0px solid transparent;
     border-right: 200px solid transparent;
-    border-top: 280px solid var(--primary-color); /* Flip the triangle upwards */
+    border-top: 280px solid var(--transparentblue); /* Flip the triangle upwards */
     border-bottom: 0px solid orange;
     width: 80%;
   }
@@ -3027,7 +3027,7 @@ body {
 
   .google-icon {
     position: absolute;
-    right: 100px; /* Adjust as needed */
+    right: 16px; /* Adjust as needed */
     top: 36px;
     transform: translateY(-50%);
     pointer-events: none; /* Ensures the icon doesn't block input clicks */
@@ -3076,7 +3076,7 @@ body {
     top: 220px;
     border-left: 0px solid transparent;
     border-right: 200px solid transparent;
-    border-top: 280px solid var(--primary-color); /* Flip the triangle upwards */
+    border-top: 280px solid var(--transparentblue); /* Flip the triangle upwards */
     border-bottom: 0px solid orange;
     width: 80%;
   }
@@ -3100,7 +3100,7 @@ body {
 
   .google-icon {
     position: absolute;
-    right: 80px; /* Adjust as needed */
+    right: 16px; /* Adjust as needed */
     top: 36px;
     transform: translateY(-50%);
     pointer-events: none; /* Ensures the icon doesn't block input clicks */
@@ -3117,7 +3117,7 @@ body {
     top: 220px;
     border-left: 0px solid transparent;
     border-right: 200px solid transparent;
-    border-top: 280px solid var(--primary-color); /* Flip the triangle upwards */
+    border-top: 280px solid var(--transparentblue); /* Flip the triangle upwards */
     border-bottom: 0px solid orange;
     width: 80%;
   }
@@ -3141,7 +3141,7 @@ body {
 
   .google-icon {
     position: absolute;
-    right: 46px; /* Adjust as needed */
+    right: 16px; /* Adjust as needed */
     top: 40px;
     transform: translateY(-50%);
     pointer-events: none; /* Ensures the icon doesn't block input clicks */
@@ -3194,7 +3194,7 @@ body {
     top: 220px;
     border-left: 0px solid transparent;
     border-right: 200px solid transparent;
-    border-top: 280px solid var(--primary-color); /* Flip the triangle upwards */
+    border-top: 280px solid var(--transparentblue); /* Flip the triangle upwards */
     border-bottom: 0px solid orange;
     width: 80%;
   }
@@ -3218,7 +3218,7 @@ body {
 
   .google-icon {
     position: absolute;
-    right: 46px; /* Adjust as needed */
+    right: 16px; /* Adjust as needed */
     top: 36px;
     transform: translateY(-50%);
     pointer-events: none; /* Ensures the icon doesn't block input clicks */
