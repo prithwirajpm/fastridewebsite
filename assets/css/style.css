@@ -2398,6 +2398,15 @@ body {
     width: 100px;
   }
 
+  .gatway-pargraph {
+    width: 50%;
+    color: white;
+    font-size: 10px;
+    text-align: justify;
+    text-align-last: left;
+    /* word-break: break-all; */
+  }
+
   .footer-section .container .logo-image img {
     -o-object-fit: cover;
     object-fit: cover;
@@ -2421,6 +2430,14 @@ body {
 
   .Fast-Ride-Shipping-l-l-c {
     padding: 580px 0px 100px 0px;
+  }
+
+  .Fast-Ride-Shipping-img-paragraph p {
+    color: white;
+    font-size: var(--subparagraph);
+    text-align: justify;
+    text-align-last: left;
+    word-break: break-all;
   }
 
   .videosdiv {
@@ -2530,7 +2547,7 @@ body {
     position: absolute;
     top: 220px;
     border-left: 0px solid transparent;
-    border-right: 200px solid transparent;
+    border-right: 110px solid transparent;
     border-top: 280px solid var(--transparentblue); /* Flip the triangle upwards */
     border-bottom: 0px solid orange;
     width: 80%;
@@ -2559,7 +2576,7 @@ body {
     position: absolute;
     top: 0;
     border-left: 0px solid transparent;
-    border-right: 200px solid transparent;
+    border-right: 110px solid transparent;
     border-top: 270px solid var(--transparentblue); /* Flip the triangle upwards */
     border-bottom: 0px solid orange;
     width: 70%;
@@ -2582,7 +2599,7 @@ body {
     position: absolute;
     top: 220px;
     border-left: 0px solid transparent;
-    border-right: 200px solid transparent;
+    border-right: 110px solid transparent;
     border-top: 280px solid var(--transparentblue); /* Flip the triangle upwards */
     border-bottom: 0px solid orange;
     width: 80%;
@@ -2631,7 +2648,7 @@ body {
     position: absolute;
     top: 220px;
     border-left: 0px solid transparent;
-    border-right: 200px solid transparent;
+    border-right: 110px solid transparent;
     border-top: 280px solid var(--transparentblue); /* Flip the triangle upwards */
     border-bottom: 0px solid orange;
     width: 80%;
@@ -2699,7 +2716,7 @@ body {
     position: absolute;
     top: 220px;
     border-left: 0px solid transparent;
-    border-right: 200px solid transparent;
+    border-right: 110px solid transparent;
     border-top: 280px solid var(--transparentblue); /* Flip the triangle upwards */
     border-bottom: 0px solid orange;
     width: 80%;
@@ -2728,7 +2745,7 @@ body {
     position: absolute;
     top: 220px;
     border-left: 0px solid transparent;
-    border-right: 200px solid transparent;
+    border-right: 110px solid transparent;
     border-top: 280px solid var(--transparentblue); /* Flip the triangle upwards */
     border-bottom: 0px solid orange;
     width: 80%;
@@ -2803,7 +2820,7 @@ body {
     position: absolute;
     top: 220px;
     border-left: 0px solid transparent;
-    border-right: 200px solid transparent;
+    border-right: 110px solid transparent;
     border-top: 280px solid var(--transparentblue); /* Flip the triangle upwards */
     border-bottom: 0px solid orange;
     width: 80%;
@@ -2877,7 +2894,7 @@ body {
     position: absolute;
     top: 220px;
     border-left: 0px solid transparent;
-    border-right: 200px solid transparent;
+    border-right: 110px solid transparent;
     border-top: 280px solid var(--transparentblue); /* Flip the triangle upwards */
     border-bottom: 0px solid orange;
     width: 80%;
@@ -2939,7 +2956,7 @@ body {
     position: absolute;
     top: 220px;
     border-left: 0px solid transparent;
-    border-right: 200px solid transparent;
+    border-right: 110px solid transparent;
     border-top: 280px solid var(--transparentblue); /* Flip the triangle upwards */
     border-bottom: 0px solid orange;
     width: 80%;
@@ -3002,7 +3019,7 @@ body {
     position: absolute;
     top: 220px;
     border-left: 0px solid transparent;
-    border-right: 200px solid transparent;
+    border-right: 110px solid transparent;
     border-top: 280px solid var(--transparentblue); /* Flip the triangle upwards */
     border-bottom: 0px solid orange;
     width: 80%;
@@ -3075,7 +3092,7 @@ body {
     position: absolute;
     top: 220px;
     border-left: 0px solid transparent;
-    border-right: 200px solid transparent;
+    border-right: 100px solid transparent;
     border-top: 280px solid var(--transparentblue); /* Flip the triangle upwards */
     border-bottom: 0px solid orange;
     width: 80%;
@@ -3116,7 +3133,7 @@ body {
     position: absolute;
     top: 220px;
     border-left: 0px solid transparent;
-    border-right: 200px solid transparent;
+    border-right: 90px solid transparent;
     border-top: 280px solid var(--transparentblue); /* Flip the triangle upwards */
     border-bottom: 0px solid orange;
     width: 80%;
@@ -3193,7 +3210,7 @@ body {
     position: absolute;
     top: 220px;
     border-left: 0px solid transparent;
-    border-right: 200px solid transparent;
+    border-right: 80px solid transparent;
     border-top: 280px solid var(--transparentblue); /* Flip the triangle upwards */
     border-bottom: 0px solid orange;
     width: 80%;
